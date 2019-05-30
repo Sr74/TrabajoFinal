@@ -26,14 +26,33 @@
 
     </header>
 
-    <div>
-        <div>
-            <h1>BIENVENIDO A RESCUEPETS</h1>
-        </div>
-
+    <div class="imagen">
+        <img src="https://www.losreplicantes.com/images/articulos/10000/10715/t5.jpg" alt="Mascotas">
     </div>
 
     <footer>
+        <div>
+            <h5>Direccion:</h5>
+            <ul>
+                <li>ASan MART #544</li>
+                <li>eRF lOS ANGELS #764</li>
+            </ul>
+        </div>
+        <div>
+            <h5>Telefonos:</h5>
+            <ul>
+                <li>7675675675</li>
+                <li>54353453454</li>
+                <li>5345345368</li>
+            </ul>
+        </div>
+        <div>
+            <h5>Correo de Contacto</h5>
+            <ul>
+                <li>rey@gmail.com</li>
+                <li>david@gamil.com</li>
+            </ul>
+        </div>
 
     </footer>
     

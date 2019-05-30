@@ -2,6 +2,8 @@
  border: 1px solid black;
 }
 
+/*Cabecera de la Página*/
+
 header {
     display: flex;
     flex-direction: row;
@@ -16,4 +18,26 @@ header ul {
 
 header ul li {
     padding: 30px;
+}
+
+/* Cuerpo de la pagina */
+
+.imagen {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+/* Pie de Pagina*/
+
+footer {
+    display: flex;
+    flex-direction: row;
+}
+
+footer div {
+
+    flex-grow: 3;
 }
