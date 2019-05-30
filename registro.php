@@ -8,38 +8,38 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-<form action="procesarRegistro.php">
+<form action="procesarRegistro.php" method="post">
     <div class="formulario">
     <div>
-    <label for="">NOMBRES:</label>
-    <input type="text" name="nombres">
+        <label for="">Nombres:</label>
+        <input type="text" name="nombres">
     </div><br>
 
     <div>
-    <label for="">APELLIDOS:</label>
-    <input type="text" name="nombres">
+        <label for="">APELLIDOS:</label>
+        <input type="text" name="apellidos">
     </div><br>
 
     <div>
-    <label for="">DNI:</label>
-    <input type="text" name="nombres">
+        <label for="">DNI:</label>
+        <input type="text" name="dni">
     </div><br>
 
     <div>
-    <label for="">correo:</label>
-    <input type="email" name="nombres">
+        <label for="">correo:</label>
+        <input type="email" name="correo">
     </div><br>
     <div>
-    <label for="">DISTRITO:</label>
-    <input type="text" name="distrito">
+        <label for="">DISTRITO:</label>
+        <input type="text" name="distrito">
     </div><br>
     <div>
-    <label for="">CONTRASEÑA:</label>
-    <input type="password" name="clave">
+        <label for="">CONTRASEÑA:</label>
+        <input type="password" name="clave">
     </div><br>
     <div>
-    <label for="">CONFIRMAR CONTRASEÑA:</label>
-    <input type="text" name="validacion">
+        <label for="">CONFIRMAR CONTRASEÑA:</label>
+        <input type="text" name="validacion">
     </div><br>
     <div><button>REGISTRAR</button></div>
     <p> ¿YA TIENE CONTRASEÑA?
