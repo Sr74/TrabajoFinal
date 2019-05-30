@@ -11,11 +11,11 @@
     <form action="procesarlogin.php" method="post" class="ubica">
         <div>
             <label>Correo:</label>
-            <input type="email" name="correo">
+            <input type="email" name="correo" placeholder="Ingresar correo">
         </div>
         <div>
             <label>Contraseña</label>
-            <input type="password" name="contraseña">
+            <input type="password" name="contraseña" placeholder="Ingresar contraseña">
         </div>
         <div>
             <button>Ingresar</button>
