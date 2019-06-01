@@ -9,7 +9,9 @@
 </head>
 <body>
 <form action="procesarRegistro.php" method="post">
-    <div class="formulario">
+    <div>
+        <input type="hidden" name="id" >
+    </div>
     <div>
         <label for="">Nombres:</label>
         <input type="text" name="nombres">
@@ -24,29 +26,27 @@
         <label for="">DNI:</label>
         <input type="text" name="dni">
     </div><br>
+    <div>
+        <label for="">DISTRITO:</label>
+        <input type="text" name="distrito">
+    </div><br>
 
     <div>
         <label for="">correo:</label>
         <input type="email" name="correo">
     </div><br>
-    <div>
-        <label for="">DISTRITO:</label>
-        <input type="text" name="distrito">
-    </div><br>
+   
     <div>
         <label for="">CONTRASEÑA:</label>
         <input type="password" name="clave">
     </div><br>
-    <div>
-        <label for="">CONFIRMAR CONTRASEÑA:</label>
-        <input type="text" name="validacion">
-    </div><br>
+    
     <div><button>REGISTRAR</button></div>
     <p> ¿YA TIENE CONTRASEÑA?
     </p>
     <a href="login.php">Haz clic</a>
 
-    </div>
+    
     
 
 

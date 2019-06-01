@@ -1,17 +1,19 @@
 <?php
-$conexion = mysqli_connect("localhost","root","","centroderegistros");
+$conexion = mysqli_connect("localhost","root","","personas");
 
 
 $nombres = $_POST["nombres"];
 $apellidos = $_POST["apellidos"];
 $dni = $_POST["dni"];
-$correo = $_POST["correo"];
 $distrito = $_POST["distrito"];
+$correo = $_POST["correo"];
 $clave = $_POST["clave"];
 
 
-$insertar = "INSERT INTO datos(nombres,apellidos,dni,correo,distrito,contraseña) VALUE ('$nombres','$apellidos','$dni','$correo','$distrito','$clave')";
-$resultado = mysqli($conexion, $insertar);
+$insertar = "INSERT INTO datos(nombres,apellidos,dni,distrito,correo,claveUsuario) VALUE ('$nombres','$apellidos','$dni','$distrito','$correo','$clave')";
+$resultado = mysqli_query($conexion, $insertar);
+
+header("Location:portal.php");
 
 //sistema conectado
 ?>
