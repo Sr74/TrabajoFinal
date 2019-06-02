@@ -1,9 +1,23 @@
 <?php
+//conexion
+$conexion = mysqli_connect("localhost","root","","personas");
+
+//guardado de datos
 $correo = $_POST["correo"];
-$contraseña = $_post["contraseña"];
+$claveUsuario = $_POST["claveUsuario"];
 
-$pdo = new PDO("mysql:host=localhost; dbname=(xxxxxx); charset=utf8","root","");
+//validado de los espacios
+$req =(strlen($correo)*strlen($claveUsuario)) or die ('<script>
+alert("complete todos los campos del formulario");
+window.history.go(-1);
+</script>');
 
-isset()
-
+//validacion
+$verificar = mysqli_query($conexion ,"SELECT*FROM datos WHERE correo ='$correo' ");
+if(mysqli_num_rows($verificar) > 0){
+    header("Location:sitioDelUsuario.php")
+   ;
+   
+}
+$resultado= mysqli_query($conexion, $verificar);
 ?>
