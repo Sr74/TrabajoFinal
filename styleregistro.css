@@ -1,0 +1,20 @@
+body{
+   
+    max-width:100%;
+    max-height: 100%;
+    margin: 50px;
+}
+.entrada{
+    padding: 0px 50px;
+}
+.boton{
+    background-color: yellow;
+    padding: 10px 30px;
+}
+.myinput{
+    width: 50px;
+    width: 200px;
+}
+.bot{
+    padding: 10px 30px;
+}
