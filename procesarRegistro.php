@@ -1,7 +1,5 @@
 <?php
 $conexion = mysqli_connect("localhost","root","","personas");
-
-
 $nombres = $_POST["nombres"];
 $apellidos = $_POST["apellidos"];
 $dni = $_POST["dni"];
