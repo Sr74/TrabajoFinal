@@ -32,16 +32,17 @@ $clave = md5($clave);
 $insertar = "INSERT INTO datos(nombres,apellidos,dni,distrito,correo,claveUsuario) VALUE ('$nombres','$apellidos','$dni','$distrito','$correo','$clave')";
 
 //verificar si el usuario ya existe en el base de datos;
-$verificar = mysqli_query($conexion ,"SELECT*FROM datos WHERE correo ='$correo' or dni ='$dni'");
+$verificar = mysqli_query($conexion ,"SELECT*FROM datos WHERE correo ='$correo' and dni ='$dni'");
 if(mysqli_num_rows($verificar) > 0){
     echo '<script>
     alert("El usuario ya esta registrado, regrese para Loguearse");
-    header("Location:login.php");
+    window.history.go(-1);
     </script>
-    ';
+    '
+    ;
  
 }else{
-    echo 'se ha registrado correctamente, por favor inicie secion';
+    echo 'se ha registrado correctamente, por favor inicie sesión';
 header("Location:login.php");
 }
 
