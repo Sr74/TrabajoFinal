@@ -7,19 +7,25 @@
     <title>Document</title>
     <link rel="stylesheet" href="estiloslogin.css">
 </head>
-<body>
-    <form action="procesarlogin.php" method="post" class="ubica">
-        <div>
-            <label>Correo:</label>
-            <input type="email" name="correo" placeholder="Ingresar correo">
-        </div>
-        <div>
-            <label>Contraseña</label>
-            <input type="password" name="claveUsuario" placeholder="Ingresar contraseña">
-        </div>
-        <div>
-            <button>Ingresar</button>
-        </div>
-    </form>
+<body>    
+    <h1>RESCUEPETS <br> INICIO DE SESION</h1>    
+    <div>
+        <form action="procesarlogin.php" method="post" class="ubica">
+            <div>
+                <label>Correo:</label>
+                <input type="email" name="correo" placeholder="Ingresar correo" maxlength="30"   class="tam">
+                
+            </div>
+            <br>
+            <div>
+                <label>Contraseña:</label>
+                <input type="password" name="claveUsuario" placeholder="Ingresar contraseña" class="tam" >
+            </div>
+            <br>
+            <div>
+                <button class="boton">Ingresar</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
