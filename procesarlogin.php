@@ -13,7 +13,7 @@ window.history.go(-1);
 </script>');
 
 //validacion
-$verificar = mysqli_query($conexion ,"SELECT*FROM datos WHERE correo ='$correo' ");
+$verificar = mysqli_query($conexion ,"SELECT*FROM datos WHERE correo ='$correo' and $claveUsuario='claveUsuario'");
 if(mysqli_num_rows($verificar) > 0){
     header("Location:sitioDelUsuario.php")
 
