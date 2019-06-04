@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="estiloslogin.css">
 </head>
 <body>    
+<?php include("menu.php");?>
     <h1>RESCUEPETS <br> INICIO DE SESION</h1>    
     <div>
         <form action="procesarlogin.php" method="post" class="ubica">

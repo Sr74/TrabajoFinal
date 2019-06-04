@@ -10,33 +10,8 @@
     <link rel="stylesheet" href="portalstyle.css">
 
 </head>
-
 <body>
-
-
-    <header class="main-header">
-
-        <div class="container">
-            <div class="logo-container column column--50">
-                <img src="https://i.pinimg.com/originals/6b/84/82/6b8482edfb38498c6b5aa6871567aa87.png" alt="logo" class="logo">
-            </div>
-        </div>
-
-        <nav class="main-nav">
-            <div class="main container">
-                <ul class="menu" id="menu">
-                    <li class="menu__item"><a href="" class="menu__link menu__link--select">Inicio</a></li>
-                    <li class="menu__item"><a href="aboutus.php" class="menu__link">Nosotros</a></li>
-                    <li class="menu__item"><a href="registro.php" class="menu__link">Registrate</a></li>
-                    <li class="menu__item"><a href="login.php" class="menu__link">Inicia Sesion</a></li>
-                    <li class="menu__item"><a href="" class="menu__link">Contactanos</a></li>
-                </ul>
-            </div>
-
-        </nav>
-    </header>
-
-
+<?php include("menu.php");?>
     <section class="banner">
         <img src="https://cdn.pixabay.com/photo/2018/08/12/16/59/ara-3601194_1280.jpg" alt="" class="banner__img">
         <div class="banner__content"> RESCUEPETS: Salvemos a los animales </div>
