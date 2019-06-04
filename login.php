@@ -8,24 +8,31 @@
     <link rel="stylesheet" href="estiloslogin.css">
 </head>
 <body>    
-    <h1>RESCUEPETS <br> INICIO DE SESION</h1>    
-    <div>
-        <form action="procesarlogin.php" method="post" class="ubica">
-            <div>
-                <label>Correo:</label>
-                <input type="email" name="correo" placeholder="Ingresar correo" maxlength="30"   class="tam">
-                
-            </div>
-            <br>
-            <div>
-                <label>Contraseña:</label>
-                <input type="password" name="claveUsuario" placeholder="Ingresar contraseña" class="tam" >
-            </div>
-            <br>
-            <div>
-                <button class="boton">Ingresar</button>
-            </div>
-        </form>
+      
+    <div class="conte"> 
+        
+        <img src="https://www.rockandpop.cl/wp-content/uploads/2018/08/Mascotas-400x360.png" class="imagen" alt="fondo">
+        <div class="texto"><h1>RESCUEPETS <br> INICIO DE SESION</h1></div>
+        <div class="ubica">
+            
+            <form action="procesarlogin.php" method="post" >
+                <div>
+                    <label>Correo:</label>
+                    <input type="email" name="correo" placeholder="Ingresar correo" class="tam">
+                    
+                </div>
+                <br>
+                <div>
+                    <label>Contraseña:</label>
+                    <input type="password" name="claveUsuario" placeholder="Ingresar contraseña" class="tam" >
+                </div>
+                <br>
+                <div>
+                    <button class="boton">Ingresar</button>
+                    <a href=""><button>Recuperar contraseña</button></a>
+                </div>
+            </form>
+        </div>
     </div>
 </body>
 </html>
