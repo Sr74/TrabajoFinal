@@ -1,6 +1,5 @@
 <?php
-    $pdo =  new PDO("mysql:host=localhost;dbname=personas;charset=utf8","root","");
-    $sql = 
+session_start();
 
 
 ?>
@@ -26,11 +25,8 @@
     </style>
 </head>
 <body>
-    <div class="cuerpo"> <h1>lugar del usuario </h1>
-    <br>
-    <h2>hola david</h2>
-    <h3>SI PUEDES IMAGINARLO, PUEDES PROGRAMARLO</h3>
-</div>
+    <h1>Bienvenido Mr <?php echo $_SESSION["usuario"] ?></h1>
+    
    
     
 </body>

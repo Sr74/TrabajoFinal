@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="portalstyle.css">
 </head>
+<STYLE>A {text-decoration: none;} </STYLE>
 <body>
 <header class="main-header">
 
@@ -19,11 +20,11 @@
 <nav class="main-nav">
     <div class="main container">
         <ul class="menu" id="menu">
-            <li class="menu__item"><a href="" class="menu__link menu__link--select">Inicio</a></li>
-            <li class="menu__item"><a href="aboutus.php" class="menu__link">Nosotros</a></li>
-            <li class="menu__item"><a href="registro.php" class="menu__link">Registrate</a></li>
-            <li class="menu__item"><a href="login.php" class="menu__link">Inicia Sesion</a></li>
-            <li class="menu__item"><a href="" class="menu__link">Contactanos</a></li>
+            <li class="menu__item"><a href="portal.php" class="menu__link menu__link--select"><h3>Inicio</h3></a></li>
+            <li class="menu__item"><a href="nosotros.php" class="menu__link"><h3>Nosotros</h3></a></li>
+            <li class="menu__item"><a href="registro.php" class="menu__link"><h3>Registrate</h3></a></li>
+            <li class="menu__item"><a href="login.php" class="menu__link"><h3>Inicia Sesion</h3></a></li>
+            <li class="menu__item"><a href="soporte.php" class="menu__link"><h3>Contactanos</h3></a></li>
         </ul>
     </div>
 

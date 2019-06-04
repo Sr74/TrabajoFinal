@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family= Montserrat: 400,700 | Pacifico & display = swap'); 
-* {
-    border: 1px solid black;
-}
-* {
-    box-sizing:border-box;
-}
+
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -25,7 +20,7 @@ h1,h2,h3,h4,h5,h6 {
 
 /* Estilos para dinamizar el header */
 header{
-    background-color: rgba(255,255,255,.87);
+    background-color: rgba(25, 233, 205, 0.87);
 }
 .main-header {
     display: flex;
