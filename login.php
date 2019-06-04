@@ -29,7 +29,7 @@
                 <br>
                 <div>
                     <button class="boton">Ingresar</button>
-                    <a href=""><button>Recuperar contraseña</button></a>
+                    <a href="verificarcorreo.php"><button>Recuperar contraseña</button></a>
                 </div>
             </form>
         </div>
