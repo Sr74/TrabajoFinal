@@ -1,51 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family= Montserrat: 400,700 | Pacifico & display = swap'); 
 * {
- border: 1px solid black;
+    border: 1px solid black;
+}
+* {
+    box-sizing:border-box;
 }
 
-/*Cabecera de la Página*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
 
-header {
+/*----Algunos Base style---*/
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+.container {
     display: flex;
-    flex-direction: row;
+}
+
+
+
+/* Estilos para dinamizar el header */
+header{
+    background-color: rgba(255,255,255,.87);
+}
+.main-header {
+    display: flex;
     justify-content: space-between;
-    
+
 }
-    
-header ul {
+
+.logo {
+    width: 120px;
+    height: 100px;
+}
+
+
+/*-- Cuerpo style-- */
+
+.banner__img{
+    width: 100%;
+    height: 100%;
+}
+.menu {
     display: flex;
-    flex-direction: row-reverse;
+}
+
+.menu li {
+    padding: 0 25px;
+    margin:15px;
     list-style-type: none;
-    color: aqua;
 }
 
-header ul li {
-    padding: 30px;
-    
+
+/*- section 1: Casos  -*/
+
+.story {
+    width: 100%;
+    height: 100%;
 }
 
-/* Cuerpo de la pagina */
+.casojack {
+    width: 50%;
+}
 
-.imagen {
+.descrip {
+    width: 60%;
     display: flex;
     flex-direction: row;
     margin: 0 auto;
-    justify-content: center;
 }
 
+/*- section 2:Tipo de animales  -*/
 
-/* Pie de Pagina*/
-
-footer {
+.grupotipo {
     display: flex;
     flex-direction: row;
 }
 
-footer div {
-
-    flex-grow: 3;
+.grupotipo img {
+    width: 100%;
+    height: 100%;
 }
-.h2{
-    color: red;
-    }
 
+#grupotitle{
+    text-align: center;
+}
 
+.imge {
+    position:relative;
+    display: flex;
+    align-items: center;
+}
+
+.descrip {
+    margin: 0 40px;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+}
+.imge.descrip h6,p {
+    
+    color:white;
+    padding: 10px 20px;
+    
+}
