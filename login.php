@@ -11,7 +11,7 @@
 <body>    
 <?php include("menu.php");?>
 <div class="acceso">
-<h1>RESCUEPETS <br> INICIO DE SESION</h1>    
+<h1>RESCUEPETS <br> INICIO DE SESION</h1><br><br>
     <div>
         <form action="procesarlogin.php" method="post" >
             <div>

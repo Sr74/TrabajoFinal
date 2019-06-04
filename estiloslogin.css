@@ -1,3 +1,8 @@
 .acceso{
     text-align: center;
+    margin: 100px 400px;
+    border: 1px solid blue;
+    width: 500px;
+    height: 400px;
+    padding: 100px;
 }
