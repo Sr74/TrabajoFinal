@@ -39,7 +39,7 @@ if(mysqli_num_rows($verificar) > 0){
     header("Location:login.php");
     </script>
     ';
-    
+ 
 }else{
     echo 'se ha registrado correctamente, por favor inicie secion';
 header("Location:login.php");
