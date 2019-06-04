@@ -10,18 +10,19 @@
 </head>
 <body>    
 <?php include("menu.php");?>
-    <h1>RESCUEPETS <br> INICIO DE SESION</h1>    
+<div class="acceso">
+<h1>RESCUEPETS <br> INICIO DE SESION</h1>    
     <div>
-        <form action="procesarlogin.php" method="post" class="ubica">
+        <form action="procesarlogin.php" method="post" >
             <div>
                 <label>Correo:</label>
-                <input type="email" name="correo" placeholder="Ingresar correo" maxlength="30"   class="tam">
+                <input type="email" name="correo" placeholder="Ingresar correo" maxlength="30"   class="tam"  style="width:300px; height: 30px ; border: 1px solid blue ">
                 
             </div>
             <br>
             <div>
                 <label>Contraseña:</label>
-                <input type="password" name="claveUsuario" placeholder="Ingresar contraseña" class="tam" >
+                <input type="password" name="claveUsuario" placeholder="Ingresar contraseña" class="tam"  style="width:300px; height: 30px ; border: 1px solid blue " >
             </div>
             <br>
             <div>
@@ -29,5 +30,8 @@
             </div>
         </form>
     </div>
+
+</div>
+    
 </body>
 </html>

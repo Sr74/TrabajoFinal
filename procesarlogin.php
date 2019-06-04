@@ -14,8 +14,8 @@ window.history.go(-1);
 
 //validacion
 $verificar = mysqli_query($conexion ,"SELECT*FROM datos WHERE correo ='$correo' and $claveUsuario='claveUsuario'");
-$pdo=new PDO("mysql:host=localhost;dbname=personas;charset=utf8");
-$resultado = $pdo->query("SELECT*FROM datos WHERE correo ='$correo' and $claveUsuario='claveUsuario'");
+
+$resultado = $conexion->query("SELECT*FROM datos WHERE correo ='$correo' and $claveUsuario='claveUsuario'");
 $fila->$resultado.fetch();
 $usuario = $fila["apellidos"]; 
 

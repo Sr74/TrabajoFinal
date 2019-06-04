@@ -82,9 +82,9 @@
             </div>
             <div class="column column--33">
                 <h2 class="column__title">Siguenos en nuestras Redes</h2>
-                <p class="column_txt"><a href=""><span class="icon-facebook"></span></a></p>
-                <p class="column_txt"><a href=""><span></span class="icon-instagram"></a></p>
-                <p class="column_text"><a href=""><span></span class="icon-whatsapp"></a></p>
+                <p class="column_txt"><a href=""><span class="icon-facebook">facebook</span></a></p>
+                <p class="column_txt"><a href=""><span></span class="icon-instagram">instagram</a></p>
+                <p class="column_text"><a href=""><span></span class="icon-whatsapp">whatsapp</a></p>
             </div>
             <p class="copy"> © 2018 RESCUEPETS | Todos los derechos reservados</p>
         </div>
