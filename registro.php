@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="styleregistro.css">
 </head>
 <body>
+    <?php include("menu.php");?>
+
     <h1>Bienvenido al centro de registros</h1>
 <form action="procesarRegistro.php" method="post">
     <div>
