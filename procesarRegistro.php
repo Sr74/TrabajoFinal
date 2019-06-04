@@ -41,7 +41,7 @@ if(mysqli_num_rows($verificar) > 0){
     ';
  
 }else{
-    echo 'se ha registrado correctamente, por favor inicie secion';
+    echo 'se ha registrado correctamente, por favor inicie sesión';
 header("Location:login.php");
 }
 
