@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,19 +8,30 @@
     <title>Document</title>
     <link rel="stylesheet" href="estiloslogin.css">
 </head>
-<body>
-    <form action="procesarlogin.php" method="post" class="ubica">
-        <div>
-            <label>Correo:</label>
-            <input type="email" name="correo" placeholder="Ingresar correo">
-        </div>
-        <div>
-            <label>Contraseña</label>
-            <input type="password" name="claveUsuario" placeholder="Ingresar contraseña">
-        </div>
-        <div>
-            <button>Ingresar</button>
-        </div>
-    </form>
+<body>    
+<?php include("menu.php");?>
+<div class="acceso">
+<h1>RESCUEPETS <br> INICIO DE SESION</h1><br><br>
+    <div>
+        <form action="procesarlogin.php" method="post" >
+            <div>
+                <label>Correo:</label>
+                <input type="email" name="correo" placeholder="Ingresar correo" maxlength="30"   class="tam"  style="width:300px; height: 30px ; border: 1px solid blue ">
+                
+            </div>
+            <br>
+            <div>
+                <label>Contraseña:</label>
+                <input type="password" name="claveUsuario" placeholder="Ingresar contraseña" class="tam"  style="width:300px; height: 30px ; border: 1px solid blue " >
+            </div>
+            <br>
+            <div>
+                <button class="boton">Ingresar</button>
+            </div>
+        </form>
+    </div>
+
+</div>
+    
 </body>
 </html>

@@ -13,10 +13,22 @@ window.history.go(-1);
 </script>');
 
 //validacion
-$verificar = mysqli_query($conexion ,"SELECT*FROM datos WHERE correo ='$correo' ");
+$verificar = mysqli_query($conexion ,"SELECT*FROM datos WHERE correo ='$correo' and $claveUsuario='claveUsuario'");
+
+$resultado = $conexion->query("SELECT*FROM datos WHERE correo ='$correo' and $claveUsuario='claveUsuario'");
+$fila->$resultado.fetch();
+$usuario = $fila["apellidos"]; 
+
 if(mysqli_num_rows($verificar) > 0){
-    header("Location:sitioDelUsuario.php")
-   ;
+    $pdo=new PDO("mysql:host=localhost;dbname=personas;charset=utf8");
+    $resultado = $pdo->query("SELECT*FROM datos WHERE correo ='$correo'");
+    $fila->$resultado.fetch();
+    $usuario= $fila["apellidos"];
+
+    session_start();
+    $_SESSION["usuario"]=$usuario;
+    header("Location:sitioDelUsuario.php");
+
    
 }
 $resultado= mysqli_query($conexion, $verificar);
