@@ -11,25 +11,17 @@
 <body>    
 <?php include("menu.php");?>
 <div class="acceso">
-<h1>RESCUEPETS <br> INICIO DE SESION</h1><br><br>
-    <div>
+        <h2>  INICIO DE SESION </h2>
         <form action="procesarlogin.php" method="post" >
-            <div>
-                <label>Correo:</label>
-                <input type="email" name="correo" placeholder="Ingresar correo" maxlength="30"   class="tam"  style="width:300px; height: 30px ; border: 1px solid blue ">
-                
+            <div class="inbox">
+                <input type="email"  name="correo" placeholder="Ingresar correo" maxlength="30"   class="tam"  required="">
             </div>
-            <br>
-            <div>
-                <label>Contraseña:</label>
-                <input type="password" name="claveUsuario" placeholder="Ingresar contraseña" class="tam"  style="width:300px; height: 30px ; border: 1px solid blue " >
+            
+            <div class="inbox">
+                <input type="password"  name="claveUsuario" placeholder="Ingresar contraseña" required="">
             </div>
-            <br>
-            <div>
-                <button class="boton">Ingresar</button>
-            </div>
+            <input type="submit" value="Enviar">
         </form>
-    </div>
 
 </div>
     
