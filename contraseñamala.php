@@ -7,15 +7,26 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="actualizarcontra.php" method="post">
+    <form action="verificarcorreo.php" method="post">
         <div>
             Por favor ingrese su correo
             <input type="email" name="correo" placeholder="Correo">
         </div>
         <div>
-            <button>verificar</button>
+            insertar contraseña:
+            <input type="password" name="contra">
+        </div>
+        <div>
+            inserte nuevamente:
+            <input type="password" name="contra1">
+        </div>
+    
+
+        <div>
+            <input type="submit" value="verificar">
         </div>
     </form>
+   
     
 </body>
 </html>

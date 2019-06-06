@@ -24,7 +24,7 @@
 
         </form>
         <br>
-        <form action="" method="post">
+        <form action="contraseñamala.php" method="post">
             <input type="submit" value="Olvide mi contraseña">
         </form>
 
