@@ -27,9 +27,10 @@
         <span></span>
         <span></span>
         <ul class="menu">
-            <li><a href="">Nosotros</a></li>
-            <li><a href="login.php">Inicia Sesion</a></li>
-            <li><a href="registro.php">Registrate</a></li>
+            <li><a href="adoptar.php">Adoptar</a></li>
+            <li><a href="registrarmascota.php">Registrar Mascota</a></li>
+            <li><a href="sobrePets.php">Sobre Pets</a></li>
+            <li><a href="donar.php">Donar</a></li>
         </ul>
     </div>
 
