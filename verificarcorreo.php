@@ -11,7 +11,7 @@ if(mysqli_num_rows($verificar) > 0){
         $verificar = mysqli_query($conexion ,"UPDATE datos SET claveUsuario='$contra' WHERE correo ='$correo'");
     }else{
             header("Location:contraseñamala.php");
-}   
+    }   
 }else{
     header("Location:contraseñamala.php");
 }
