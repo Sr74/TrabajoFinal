@@ -21,6 +21,11 @@
                 <input type="password"  name="claveUsuario" placeholder="Ingresar contraseña" required="">
             </div>
             <input type="submit" value="Enviar">
+
+        </form>
+        <br>
+        <form action="" method="post">
+            <input type="submit" value="Olvide mi contraseña">
         </form>
 
 </div>
