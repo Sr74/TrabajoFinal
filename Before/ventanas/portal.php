@@ -18,11 +18,10 @@
 
             <nav class="active">
                     <ul>
-                        <li class="active" href=""><a>Inicio</a></li>
-                        <li ><a href="">Nosotros</a></li>
-                        <li ><a href="">Registrate</a></li>
-                        <li><a href="">Inicia Sesion</a></li>
-                        <li><a href="">Contactanos</a></li>
+                        <li class="active"><a href="portal.php">Inicio</a></li>
+                        <li ><a href="nosotros.php">Nosotros</a></li>
+                        <li ><a href="registro.php">Registrate</a></li>
+                        <li><a href="login.php">Inicia Sesion</a></li>
                     </ul>
             </nav>
 

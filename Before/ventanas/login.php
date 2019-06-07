@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="estiloslogin.css">
 </head>
 <body>    
-<?php include("menu.php");?>
+<?php include('../partes/headpart.php'); ?>
 <div class="acceso">
         <h2>  INICIO DE SESION </h2>
         <form action="procesarlogin.php" method="post" >

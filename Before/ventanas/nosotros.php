@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-<?php include("menu.php");?>
+    <?php include('../partes/headpart.php'); ?>
     <h1>sobre nosotros</h1>
 </body>
 </html>
