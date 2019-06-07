@@ -25,6 +25,8 @@ $sql = "SELECT*FROM adoptados";
             <li><a href="sobrePets.php">Sobre Pets</a></li>
             <li><a href="donar.php">Donar</a></li>
             <li><a href="veterinarias.php">Veterinarias</a></li>
+            <li><a href="aletas.php">Alertas</a></li>
+            <li><a href="daralertas.php">Alertar</a></li>
         </ul>
     </div>
 
@@ -45,6 +47,7 @@ $sql = "SELECT*FROM adoptados";
                 <td><?php echo $fila["numero"]?></td>
                 <td><?php echo $fila["direccion"]?></td>
                 <td><textarea cols="30" rows="10"><?php echo $fila["descripcion"]?></textarea></td>
+                <td><a href="adoptando.php">Adoptar</a></td>
             </tr>
         <?php
         }

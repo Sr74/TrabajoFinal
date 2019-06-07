@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="page2.css">
 </head>
 <body>
     <div class="navigation">
@@ -14,41 +13,34 @@
         <span></span>
         <ul class="menu">
             <li><a href="index.php">Inicio</a></li>
-            <li><a href="veterinarias.php">Veterinarias</a></li>
+            <li><a href="registrarmascota.php">Registrar Mascota</a></li>
             <li><a href="Adoptar.php">Adoptar</a></li>
             <li><a href="sobrePets.php">Sobre Pets</a></li>
             <li><a href="donar.php">Donar</a></li>
-            <li><a href="daralerta.php">Alertar</a></li>
+            <li><a href="veterinarias.php">Veterianrias</a></li>
             <li><a href="alertas.php">Alertas</a></li>
         </ul>
     </div>
-
-    <form action="procesoregistrarmascota.php" method="post">
+    <form action="procesoalerta.php" method="post">
         <div>
-            <label>Ingrese su nombre:</label>
-            <input type="text" name="nombre">
+            <label>Ingrese nombre</label>
+            <input type="text" name="nombre" placeholder="No es obligatorio">
         </div>
         <div>
-            <label>Ingrese numero de telefono:</label>
-            <input type="text" name="numero">
+            <label>Ingrese un telefono</label>
+            <input type="text" name="telefono" placeholder="No es obligatorio">
         </div>
         <div>
-            <label>Ingrese numero de telefono nuevamente:</label>
-            <input type="text" name="numero2">
+            <label>Ingrese la direccion</label>
+            <input type="text" name="direc" placeholder="Obligatorio">
         </div>
         <div>
-            <label>Ingrese direccion:</label>
-            <input type="text" name="direc">
+            <label>Ingrese una descripcion</label>
+            <textarea name="descrip" cols="30" rows="10" placeholder="Obligatorio"></textarea>
         </div>
         <div>
-            <label>Ingrese descripcion del animal:</label>
-            <textarea name="descrip" cols="30" rows="10"></textarea>
+            <button>Enviar</button>
         </div>
-        <div>
-            <button>registrar</button>
-        </div>
-    
-    
     </form>
     
 </body>

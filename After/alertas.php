@@ -1,6 +1,6 @@
 <?php
 $pdo = new PDO("mysql:host=localhost;dbname=personas;charset=utf8","root","");
-$sql = "SELECT*FROM veterinarios";
+$sql = "SELECT*FROM alertas";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -26,16 +26,15 @@ $sql = "SELECT*FROM veterinarios";
             <li><a href="sobrePets.php">Sobre Pets</a></li>
             <li><a href="donar.php">Donar</a></li>
             <li><a href="daralerta.php">Alertar</a></li>
-            <li><a href="alertas.php">Alertas</a></li>
+            <li><a href="veterinarias.php">Veterianrias</a></li>
         </ul>
     </div>
 
     <table class="table">
         <tr>
             <td>Nombre</td>
-            <td>Numeros</td>
+            <td>Numero</td>
             <td>Direccion</td>
-            <td>Redes socileas</td>
             <td>Descripcion</td>
         </tr>
 
@@ -45,9 +44,8 @@ $sql = "SELECT*FROM veterinarios";
         ?> 
             <tr>
                 <td><?php echo $fila["nombre"]?></td>
-                <td><?php echo $fila["numero1"]?> <br><?php echo $fila["numero2"]?></td>
+                <td><?php echo $fila["telefono"]?></td>
                 <td><?php echo $fila["direccion"]?></td>
-                <td><?php echo $fila["sociales1"]?><br> <?php echo $fila["sociales2"]?></td>
                 <td><textarea cols="30" rows="10"><?php echo $fila["descripcion"]?></textarea></td>
             </tr>
         <?php
