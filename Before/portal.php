@@ -6,46 +6,62 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>PortalRescue</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
 </head>
 <body>
-    <header class="main-header">
+    <header>
 
-            <div class>
-                <img class="logo" src="https://i.pinimg.com/originals/6b/84/82/6b8482edfb38498c6b5aa6871567aa87.png">
+            <div class="logo">
+                RESCUEpets
             </div>
 
-            <nav class="main-nav">
-                    <ul class="menu" id="menu">
-                        <li class="menu__item"><a href="" class="menu__link menu__link--select">Inicio</a></li>
-                        <li class="menu__item"><a href="" class="menu__link">Nosotros</a></li>
-                        <li class="menu__item"><a href="" class="menu__link">Registrate</a></li>
-                        <li class="menu__item"><a href="" class="menu__link">Inicia Sesion</a></li>
-                        <li class="menu__item"><a href="" class="menu__link">Contactanos</a></li>
+            <nav class="active">
+                    <ul>
+                        <li class="active" href=""><a>Inicio</a></li>
+                        <li ><a href="">Nosotros</a></li>
+                        <li ><a href="">Registrate</a></li>
+                        <li><a href="">Inicia Sesion</a></li>
+                        <li><a href="">Contactanos</a></li>
                     </ul>
             </nav>
 
-            //<div class="menu-tog"><i class="fas fa-bars"></i></div>
-
+            <div class="icon"><i class="fa fa-bars" aria-hidden="true"></i></div>
+        
         </header>
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        ></script>
+        <script> type="text/javascript">
+            $(document).ready(function()
+            {
+                $('.icon').click(function(){
+                    $('nav').toggleClass('active')
+                })
+            })
+        </script>
 
+        <hr id="linea1">
 
-        <section class="banner">
-        <img src="https://images.pexels.com/photos/825947/pexels-photo-825947.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="banner-img">
-        <div class="banner__content"> RESCUEPETS: Salvemos a los animales </div>
-        </section>
+        <section class="izq">
+                <div class="title-page">
+                    <h1>RESCUEPETS: Más que una Familia</h1>
+                </div>
 
-
-        <section class="izq-descp">
-            <div>
-                <h1>RESCUEPETS: Más que una Familia</h1>
-            </div>
-
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi consectetur illo consequatur vel praesentium iste dolorum dignissimos officia, ratione provident odio molestiae accusamus enim harum quod corporis? Architecto, sunt quia.</p>
-            </div>
+                <div id="desc-page">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi consectetur illo consequatur vel praesentium iste dolorum dignissimos officia, ratione provident odio molestiae accusamus enim harum quod corporis? Architecto, sunt quia.</p>
+                </div>
             
         </section>
+
+        <div class="loader">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+
+
 
 </body>
 </html>
