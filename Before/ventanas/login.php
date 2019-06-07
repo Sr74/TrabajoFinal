@@ -8,7 +8,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="estiloslogin.css">
 </head>
-<body>    
+<body>  
+<?php include('../partes/layerder.php'); ?>
 <?php include('../partes/headpart.php'); ?>
 <div class="acceso">
         <h2>  INICIO DE SESION </h2>

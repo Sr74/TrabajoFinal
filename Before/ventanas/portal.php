@@ -10,6 +10,7 @@
     
 </head>
 <body>
+    <?php include('../partes/layerar.php'); ?>
     <header>
 
             <div class="logo">

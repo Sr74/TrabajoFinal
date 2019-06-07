@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styleregistro.css">
 </head>
 <body>
+<?php include('../partes/layerizq.php'); ?>
 <?php include('../partes/headpart.php'); ?>
 
     <h1>Bienvenido al centro de registros</h1>
