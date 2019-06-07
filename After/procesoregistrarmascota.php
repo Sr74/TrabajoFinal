@@ -8,7 +8,7 @@ $conexion = mysqli_connect("localhost","root","","personas");
 
 
 if($numero == $numero2){
-    $verificar = mysqli_query($conexion ,"INSERT INTO nombreexxxxxxx VALUES (NULL,'$nombre','$numero','$direc','$descrip')");
+    $verificar = mysqli_query($conexion ,"INSERT INTO adoptados VALUES (NULL,'$nombre','$numero','$direc','$descrip')");
     header("Location:adoptar.php");
 }else{
     header("Location:registrarmascota.php");
