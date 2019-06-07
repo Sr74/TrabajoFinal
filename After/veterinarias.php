@@ -1,6 +1,6 @@
 <?php
 $pdo = new PDO("mysql:host=localhost;dbname=personas;charset=utf8","root","");
-$sql = "SELECT*FROM adoptados";
+$sql = "SELECT*FROM veterinarios";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,7 +13,7 @@ $sql = "SELECT*FROM adoptados";
 </head>
 <body>
     <header>
-        <h1>Adopta una Mascota </h1>
+        <h1>Veterinarias con las que trabajamos</h1>
     </header>
     <div class="navigation">
         <input type="checkbox">
@@ -22,17 +22,18 @@ $sql = "SELECT*FROM adoptados";
         <ul class="menu">
             <li><a href="index.php">Inicio</a></li>
             <li><a href="registrarmascota.php">Registrar Mascota</a></li>
+            <li><a href="Adoptar.php">Adoptar</a></li>
             <li><a href="sobrePets.php">Sobre Pets</a></li>
             <li><a href="donar.php">Donar</a></li>
-            <li><a href="veterinarias.php">Veterinarias</a></li>
         </ul>
     </div>
 
     <table class="table">
         <tr>
             <td>Nombre</td>
-            <td>Numero</td>
+            <td>Numeros</td>
             <td>Direccion</td>
+            <td>Redes socileas</td>
             <td>Descripcion</td>
         </tr>
 
@@ -42,8 +43,9 @@ $sql = "SELECT*FROM adoptados";
         ?> 
             <tr>
                 <td><?php echo $fila["nombre"]?></td>
-                <td><?php echo $fila["numero"]?></td>
+                <td><?php echo $fila["numero1"]?> <br><?php echo $fila["numero2"]?></td>
                 <td><?php echo $fila["direccion"]?></td>
+                <td><?php echo $fila["sociales1"]?><br> <?php echo $fila["sociales2"]?></td>
                 <td><textarea cols="30" rows="10"><?php echo $fila["descripcion"]?></textarea></td>
             </tr>
         <?php

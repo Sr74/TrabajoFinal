@@ -39,7 +39,7 @@
         </div>
         <div>
             <label>Ingrese descripcion del animal:</label>
-            <input type="textarea" name="descrip">
+            <textarea name="descrip" cols="30" rows="10"></textarea>
         </div>
         <div>
             <button>registrar</button>

@@ -1,9 +1,12 @@
-.table{
+table{
     text-align:left;
     margin: 0 auto;
     border: 1px solid black;
-    
-
+    border-collapse: collapse;
+}
+table td{
+    border: 1px solid black;
+    padding: 8px;
 }
 .navigation {
     position: absolute;
