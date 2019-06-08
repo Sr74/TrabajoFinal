@@ -31,10 +31,10 @@ $sql2 = "SELECT*FROM respuestas";
             
         ?> 
             <tr>
-                <td><textarea cols="30" rows="5" readonly ><?php echo $fila["pregunta"]?></textarea></td>
+                <td><textarea cols="30" rows="5" readonly><?php echo $fila["pregunta"]?></textarea></td>
                 <td>
                     <form action="procesorespuesta.php?id=<?php echo $fila["id"]?>" method="post">
-                        <textarea name="respuesta" cols="30" rows="2"></textarea>
+                        <textarea name="respuesta" cols="30" rows="2" placeholder="Pon una respuesta"></textarea>
                         <button>enviar</button>
                     </form>
                     <?php  $dato = $fila["id"] ?>
