@@ -17,28 +17,28 @@
         </div>
         <div>
             <label for=""></label>
-            <input class="myinput" type="int" name="nombres" style="width:300px; height: 30px ; border: 1px solid blue " placeholder="Numero de tarjeta" >
+            <input class="myinput" type="int" name="nombres" style="width:300px; height: 40px ; border: 2px solid blue ;border-radius: 20px " placeholder="Numero de tarjeta"  >
         </div><br>
 
         <div>
             <label for="">Mes:</label>
-            <input type="text" name="mes" style="width:300px; height: 30px ; border: 1px solid blue" placeholder="MM" >
+            <input type="text" name="mes" style="width:300px; height: 40px ; border: 2px solid blue; border-radius: 20px" placeholder="MM" >
             <label for="">Año:</label>
-            <input type="text" name="year" style="width:300px; height: 30px ; border: 1px solid blue" placeholder="YY">
+            <input type="text" name="year" style="width:300px; height: 40px ; border: 2px solid blue; border-radius: 20px" placeholder="YY">
         </div><br>
         <div>
             <label for="">Codigo de seguridad:</label>
-            <input type="text" name="codigo" style="width:300px; height: 30px ; border: 1px solid blue" placeholder="cvv">
+            <input type="text" name="codigo" style="width:300px; height: 40px ; border: 2px solid blue; border-radius: 20px" placeholder="cvv">
         </div><br>
 
         <div>
             <label for="">Nombres:</label>
-            <input type="text" name="nombres" style="width:300px; height: 30px ; border: 1px solid blue" >
+            <input type="text" name="nombres" style="width:300px; height: 40px ; border: 2px solid blue; border-radius: 20px" >
         </div><br>
     
         <div>
             <label for="">Apellidos:</label>
-            <input type="text" name="apellidos" style="width:300px; height: 30px ; border: 1px solid blue" >
+            <input type="text" name="apellidos" style="width:300px; height: 40px ; border: 2px solid blue; border-radius: 20px" >
         </div><br>
         <div><button class="boton">Donar</button></div><br>
         

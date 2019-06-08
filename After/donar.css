@@ -1,17 +1,25 @@
+body{
+    background-color:greenyellow;
+}
 .donacion{
     text-align: center;
-    margin: 150px 300px;
-    border: 1px solid black;
+    margin: 100px 300px;
+    border: 2px solid green;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    
 }
 .boton{
     width: 80px;
     height: 40px;
     overflow-clip-box: blue;
+    border-radius: 10px;
     
     
 }
 .boton:hover {
-    color: orange;
-    background-color: red;
+
+    background-color:yellow;
+
     
-    }
+}
