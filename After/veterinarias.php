@@ -48,7 +48,7 @@ $sql = "SELECT*FROM veterinarios";
                 <td><?php echo $fila["numero1"]?> <br><?php echo $fila["numero2"]?></td>
                 <td><?php echo $fila["direccion"]?></td>
                 <td><?php echo $fila["sociales1"]?><br> <?php echo $fila["sociales2"]?></td>
-                <td><textarea cols="30" rows="10"><?php echo $fila["descripcion"]?></textarea></td>
+                <td><textarea cols="30" rows="10" readonly ><?php echo $fila["descripcion"]?></textarea></td>
             </tr>
         <?php
         }
