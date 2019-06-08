@@ -46,8 +46,8 @@ $sql = "SELECT*FROM adoptados";
                 <td><?php echo $fila["nombre"]?></td>
                 <td><?php echo $fila["numero"]?></td>
                 <td><?php echo $fila["direccion"]?></td>
-                <td><textarea cols="30" rows="10"><?php echo $fila["descripcion"]?></textarea></td>
-                <td><a href="adoptando.php">Adoptar</a></td>
+                <td><textarea readonly cols="30" rows="5"><?php echo $fila["descripcion"]?></textarea></td>
+                <td><a href="adoptando.php?id=<?php echo $fila["id"]?>">Adoptar</a></td>
             </tr>
         <?php
         }

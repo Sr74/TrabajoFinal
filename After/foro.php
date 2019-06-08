@@ -1,7 +1,7 @@
 <?php
 $pdo = new PDO("mysql:host=localhost;dbname=personas;charset=utf8","root","");
-$sql = "SELECT*FROM foro";
-$sql2 = "SELECT*FROM respuestas";
+$sql = "SELECT*FROM foro ORDER BY id DESC";
+$sql2 = "SELECT*FROM respuestas ";
 ?>
 <!DOCTYPE html>
 <html lang="en">
