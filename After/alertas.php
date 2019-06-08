@@ -46,7 +46,7 @@ $sql = "SELECT*FROM alertas";
                 <td><?php echo $fila["nombre"]?></td>
                 <td><?php echo $fila["telefono"]?></td>
                 <td><?php echo $fila["direccion"]?></td>
-                <td><textarea cols="30" rows="10"><?php echo $fila["descripcion"]?></textarea></td>
+                <td><textarea cols="30" rows="10" readonly ><?php echo $fila["descripcion"]?></textarea></td>
             </tr>
         <?php
         }
