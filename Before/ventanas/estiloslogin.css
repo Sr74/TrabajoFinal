@@ -1,12 +1,12 @@
 .acceso{
     position: absolute;
-    background: linear-gradient( orangered 0%, orangered,#fff 50%,white 100%) ;
+    background: linear-gradient(  rgb(5, 132, 252) 0%, rgb(5, 132, 252) 0%,#fff 50%,white 100%) ;
     text-align: center;
     margin: 0 auto;
     border:1px solid white;
     padding: 100px;
     border-radius:10px;
-
+    
 }
 
 body{
@@ -16,7 +16,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(#fff 0%,white 50%, orangered 50%, orangered 100%);
+    background: linear-gradient(#fff 0%,white 50%, rgb(5, 132, 252) 50%, orangered 100%);
     font-family: 'Poppins', sans-serif;
 
 }

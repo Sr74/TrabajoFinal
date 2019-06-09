@@ -13,10 +13,16 @@
         }
         .formulario{
             text-align: center;
-            margin: 100px 300px;
-            border: 2px solid red;
+            margin: 100px 300px 0 300px;
+            border: none;
             background-color: whitesmoke;
             border-radius: 20px;  
+        }
+        .bott{
+            border: none;
+            text-transform: uppercase;
+            color: black;
+            font-family: Georgia, 'Times New Roman', Times, serif;
         }
         .bott:hover{
             background-color: red;

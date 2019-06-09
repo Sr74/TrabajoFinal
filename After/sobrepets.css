@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    background: rgb(168, 136, 136);
+    height: 100%;
+    width: 100%;
+}
+.comida{
+    background: rgb(84, 84, 230);
+    height: 100%;
+}
+
+.razas {
+    background: white;
+    height: 100%;
+}
+
+.preguntas {
+    background: burlywood;
+    height: 100%;
+}

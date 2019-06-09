@@ -16,13 +16,12 @@
         <span></span>
         <span></span>
         <ul class="menu">
-            <li><a href="index.php">Inicio</a></li>
             <li><a href="adoptar.php">Adoptar</a></li>
             <li><a href="registrarmascota.php">Registrar Mascota</a></li>
-            <li><a href="sobrePets.php">Sobre Pets</a></li>
             <li><a href="donar.php">Donar</a></li>
             <li><a href="daralerta.php">Alertar</a></li>
             <li><a href="veterinarias.php">Veterinarias</a></li>
+            <li><a href="sobrePets.php">Sobre Pets</a></li>
         </ul>
     </div>
 

@@ -36,7 +36,7 @@ table td{
 }
 
 .navigation input:checked~ .menu{
-    width: 400px;
+    width: 1000px;
 }
 
 .menu li{
@@ -53,7 +53,7 @@ table td{
 }
 .menu li a:hover
 {
-    color: orangered;
+    color: blue;
 }
 
 .navigation input {
