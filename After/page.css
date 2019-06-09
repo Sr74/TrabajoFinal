@@ -124,6 +124,7 @@ body{
     flex-direction: row;
     position: absolute;
     top:150px;
+    text-align: center;
 }
 
 .imgs img {
