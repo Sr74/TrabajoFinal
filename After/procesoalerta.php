@@ -12,7 +12,12 @@ $descrip = $_POST["descrip"];
 
 
 $conexion = mysqli_connect("localhost","root","","personas");
-$verificar = mysqli_query($conexion ,"INSERT INTO alertas VALUES (NULL,'$nombre','$telefono','$direc','$descrip')");
-header("Location:alertas.php");
+if($direc == "" or $descrip == ""){
+    header("Location:daralerta.php");
+}else{
+    $verificar = mysqli_query($conexion ,"INSERT INTO alertas VALUES (NULL,'$nombre','$telefono','$direc','$descrip')");
+    header("Location:alertas.php");
+
+}
 
 ?>
