@@ -88,7 +88,7 @@ body {
 }
 
 .inside {
-    width: 80%;
+    width: 95%;
     height: 80%;
     background: white;
     margin: 0 auto;
@@ -98,13 +98,15 @@ body {
 .inside #title-comida {
 
     width: 40%;
-    font-size: 40px;
+    font-size: 30px;
     color:white;
     padding: 40px;
     background: rgb(84, 84, 230);
     margin: 0 auto;
     text-align: center;
     border: 1px solid white;
+    font-family: 'Lustria', serif;
+    
     
 
 }
@@ -156,7 +158,7 @@ body {
     height: 200px;
     position: relative;
     float: right;
-    right: -40px;
+    right: -20px;
     top: 10px;
     width: 40%;
     font-size: 20px;
@@ -191,17 +193,117 @@ body {
 
 #img2 {
     float: right;
-    right: -10px;
+    right: -470px;
 }
 
 
 .razas {
     background: white;
     height: 500px;
+    display: flex;
+    
 }
 
-.preguntas {
+
+.razap {
+    height: 500px;
+    width: 50%;
+    background: linear-gradient(white 0%, white 0%,rgb(255, 123, 61) 50%, rgb(255, 123, 61) 100%);
+   
+}
+
+.razag{
+    height: 500px;
+    width: 50%;
+    background: linear-gradient(rgb(238, 87, 87) 0%, rgb(238, 87, 87) 0%,white 50%, white 100%);
+
+}
+
+.razas span {
+    position: absolute;
+    background:url(https://cdn.pixabay.com/photo/2014/10/01/16/36/siamese-468814_1280.jpg);
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+    left: 0;right: 0;
+    top: 1320px;
+    text-align: center;
+    font-family: 'Lustria', serif;
+    
+}
+#line1{
+    position: absolute;
+    height: 368px;
+    width: 4px;
+    background: rgb(84, 84, 230);
+    float: none;
+    right: 0;
+    left: 0;
+    border: none;
+    top: 660px;
+    z-index: 3;
+}
+
+.razap div {
+    display: flex;
+}
+
+.razap div a {
+    background: white;
+    color: Black;
+    padding: 10px;
+    margin: 80px 20px;
+}
+.razap div a:hover{
+    background: orangered;
+    color: white;
+}
+.razag div a {
+    background: orangered;
+    color: Black;
+    float: right;
+    right: 150px;
+    padding: 10px;
+    position: relative;
+    top: 380px;
+    margin: 20px;
+    
+}
+
+.razag div a:hover{
+    background: red;
+    color: white;
+}
+
+
+.preguntas{
+    background: url(https://cdn.pixabay.com/photo/2016/11/22/20/10/adorable-1850465_1280.jpg);
+}
+.preguntas-list {
+    width: 80%;
+    margin: 0 auto;
     background: burlywood;
     height: 600px;
-    
+}
+.preguntas-list h3 {
+    position: relative;
+    background:white;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    top: 20px;
+    padding: 20px;
+    font-size: 25px;
+}
+.preguntas-list ul {
+    list-style-type: none;
+    position: relative;
+    background:white;
+    top:80px;
+    font-family: 'Lustria', serif;
+}
+
+.preguntas-list ul li {
+    background: burlywood;
+    border: 2px solid white;
 }
