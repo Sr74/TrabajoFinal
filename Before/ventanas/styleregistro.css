@@ -27,9 +27,6 @@ h2{
     border-right: 1px solid gainsboro;
 
 }
-.form_register:active{
-    transform: scale(1.2);
-}
 .form_register:hover{
     background-color: azure;
 }
@@ -65,11 +62,16 @@ input{
 }
 .text{
     text-align: center;
+    padding: 20px 120px;
 }
 .bott{
    padding: 10px 40px;
     background: crimson;
     color: white;
     border-radius: 3px;
+    text-align: center;
     
+}
+.bot{
+    text-align: center;
 }
