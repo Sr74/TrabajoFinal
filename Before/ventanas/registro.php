@@ -26,7 +26,7 @@
           
                 <input type="text" name="distrito" class="input_48" placeholder="Distrito" required >
            
-                <input type="email" name="correo" class="input_100" placeholder="Correo Electrónico" required
+                <input type="email" name="correo" class="input_100" placeholder="Correo Electrónico" required>
            
                 <input type="password" name="clave" class="input_48" placeholder="Contraseña"  required>
             
