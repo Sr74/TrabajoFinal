@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+    font-family: sans-serif;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk1sCsesYoQf26g6d-kqSHOmLskuStiWtFZYck3Rt3jXbr5bfP);
+}
+.formulario{
+    margin: 100px;
+}
+.formulario:hover{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROPoZxCThjLDPur3jzyCqmzzCK59PSM8GSVxiSAWsN7JTQ13rU);
+}
+h2{
+    color: white;
+    text-align: center;
+}
+
+.form_register{
+    width: 95%;
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    border-left: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+
+}
+.form_register:active{
+    transform: scale(1.2);
+}
+.form_register:hover{
+    background-color: azure;
+}
+.titulo{
+    background: rgb(39, 243, 107);
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 7px solid crimson;
+
+}
+.contenedor{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+input{
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.input_48{
+    width: 48%,
+
+}
+.input_100{
+    width: 100%;
+}
+.text{
+    text-align: center;
+}
+.bott{
+   padding: 10px 40px;
+    background: crimson;
+    color: white;
+    border-radius: 3px;
+    
+}

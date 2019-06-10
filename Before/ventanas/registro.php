@@ -6,79 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="styleregistro.css">
-    <style>
-         
-        body{
-            background-color: grey;
-        }
-        .formulario{
-            text-align: center;
-            margin: 100px 300px 0 300px;
-            border: none;
-            background-color: whitesmoke;
-            border-radius: 20px;  
-        }
-        .bott{
-            border: none;
-            text-transform: uppercase;
-            color: black;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-        }
-        .bott:hover{
-            background-color: red;
-
-        }
-
-    </style>
 </head>
 <body>
 <?php include('../partes/layerizq.php'); ?>
 <?php include('../partes/headpart.php'); ?>
 <div class="formulario">
-    <h1>Bienvenido al centro de registros</h1>
-    <form action="procesarRegistro.php" method="post">
-        <div>
-            <input type="hidden" name="id" >
+
+    <form action="procesarRegistro.php" method="post" class="form_register">
+        <h2 class="titulo">CREAR UNA CUENTA</h2>
+        <div class="contenedor">
+         
+                <input type="hidden" name="id" >
+            
+                <input type="text" name="nombres" class="input_100" placeholder="Nombres" required>
+            
+                <input type="text" name="apellidos" class="input_100" placeholder="Apellidos" required >
+          
+                <input type="text" name="dni" class="input_48" placeholder="DNI" required>
+          
+                <input type="text" name="distrito" class="input_48" placeholder="Distrito" required >
+           
+                <input type="email" name="correo" class="input_100" placeholder="Correo Electrónico" required
+           
+                <input type="password" name="clave" class="input_48" placeholder="Contraseña"  required>
+            
+                <input type="password" name="repeticion" class="input_48" placeholder="Repita su contraseña" required>
+            
         </div>
-        <div>
-            <label for="">NOMBRES:</label>
-            <input type="text" name="nombres" style="width:300px; height: 30px ; border: 1px solid blue "  >
-        </div><br>
+        <div class="text">
+            <div ><button class="bott">REGISTRARSE</button></div><br>
+            <div><h3>¿Ya estas registrado?</h3></div>
+            <div class="entrada"><a href="login.php">Haz clic aqui</a></div><br>
 
-        <div>
-            <label for="">APELLIDOS:</label>
-            <input type="text" name="apellidos" style="width:300px; height: 30px ; border: 1px solid blue" >
-        </div><br>
+        </div>
+        
 
-        <div>
-            <label for="">DNI:</label>
-            <input type="text" name="dni" style="width:300px; height: 30px ; border: 1px solid blue" >
-        </div><br>
-        <div>
-            <label for="">DISTRITO:</label>
-            <input type="text" name="distrito" style="width:300px; height: 30px ; border: 1px solid blue" >
-        </div><br>
-
-        <div>
-            <label for="">CORREO:</label>
-            <input type="email" name="correo" style="width:300px; height: 30px ; border: 1px solid blue" >
-        </div><br>
-    
-        <div>
-            <label for="">CONTRASEÑA:</label>
-            <input type="password" name="clave" style="width:300px; height: 30px ; border: 1px solid blue" >
-        </div><br>
-
-        <div>
-        <label for="">CONFIRMAR CONTRASEÑA:</label>
-            <input type="password" name="repeticion" style="width:300px; height: 30px ; border: 1px solid blue" >
-        </div><br>
-
-        <div class="bot"><button class="bott">REGISTRARSE</button></div><br>
-
-        <div><h3>¿Ya estas registrado?</h3></div>
-
-        <div class="entrada"><a href="login.php">Haz clic aqui</a></div><br>
 
     </form>
 
