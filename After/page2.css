@@ -21,6 +21,7 @@ table td{
     border-radius: 4px;
     overflow: hidden;
     box-shadow: 0 8px 15px rgba(0,0,0, .2);
+    z-index: 100000;
    
     
 }
@@ -36,7 +37,7 @@ table td{
 }
 
 .navigation input:checked~ .menu{
-    width: 1000px;
+    width: 700px;
 }
 
 .menu li{
