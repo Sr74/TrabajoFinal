@@ -31,7 +31,7 @@
     </div>
 
     <div class="main-comida">
-
+        <hr id="line1">
         <div class="inside">
 
             <h2 id="title-comida"> Comida Para los Amigos de Casa </h2>
@@ -65,24 +65,44 @@
         </div>
     </div>
     <div class="razas">
-        <span>Algunas Razas de Perros Interesantes</span>
+        <span>Algunas Razas Interesantes</span>
+
+        <div class="razap">
+            <div>
+                <a href="https://es.wikipedia.org/wiki/Dogo_del_T%C3%ADbet">Dogo del Tibet</a>
+                <a href="https://es.wikipedia.org/wiki/Azawakh">Azawakh</a>
+                <a href="https://es.wikipedia.org/wiki/Xoloitzcuintle">Xoloitzcuintle</a>
+            </div>
+        </div>
+
+        <div class="razag">
+            <div>
+                <a href="https://es.wikipedia.org/wiki/Sphynx">Sphynx</a>
+                <a href="https://www.feelcats.com/blog/gato-savannah/">Savannah</a>
+                <a href="https://www.feelcats.com/blog/scottish-fold-gato/">Scottish-Fold</a>
+            </div>
+            
+        </div>
     </div>
 
     <div class="preguntas">
-        <h3>Preguntas Frecuentes sobre Ellos</h3>
-        <ul>
-            <li>Que </li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
+        <div class="preguntas-list">
+            <h3>Preguntas Frecuentes sobre Ellos</h3>
+            <ul>
+                <li><a href=""></a></li>
+                <li>fesse</li>
+                <li>fsefes</li>
+                <li>fsefes</li>
+                <li>fsef</li>
+                <li>fsef</li>
+                <li>defsffsefs</li>
+                <li>fesfesfse</li>
+                <li>fsefesf</li>
+                <li>sfefsefesf</li>
+            </ul>
+        </div>
     </div>
+    
     
 
 
