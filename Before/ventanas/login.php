@@ -25,7 +25,7 @@
 
         </form>
         <br>
-        <form action="contraseñamala.php" method="post">
+        <form action="../procesos/contraseñamala.php" method="post">
             <input type="submit" value="Olvide mi contraseña">
         </form>
 

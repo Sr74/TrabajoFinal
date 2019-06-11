@@ -14,7 +14,7 @@
     <div class="form_register">
         <h2 class="titulo">CREAR UNA CUENTA</h2>
         <div class="contenedor">
-            <form action="procesarRegistro.php" method="post">
+            <form action="../procesos/procesarRegistro.php" method="post">
                 <input type="hidden" name="id" >
                 
                 <input type="text" name="nombres" class="input_100" placeholder="Nombres" >
@@ -35,7 +35,7 @@
             </form>
                 <div class="text">
                         <div><h3>¿Ya estas registrado?</h3></div>
-                        <div class="entrada"><a href="login.php">Haz clic aqui</a></div><br>
+                        <div class="entrada"><a href="../ventanas/login.php">Haz clic aqui</a></div><br>
 
                 </div>
             

@@ -9,10 +9,11 @@ if(mysqli_num_rows($verificar) > 0){
     if($contra == $contra1){
         $contra = md5($contra);
         $verificar = mysqli_query($conexion ,"UPDATE datos SET claveUsuario='$contra' WHERE correo ='$correo'");
+        header("Location:../ventanas/login.php");
     }else{
-            header("Location:contraseñamala.php");
+            header("Location:../procesos/contraseñamala.php");
     }   
 }else{
-    header("Location:contraseñamala.php");
+    header("Location:../procesos/contraseñamala.php");
 }
 ?>

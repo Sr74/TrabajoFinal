@@ -20,8 +20,9 @@
             <li><a href="registrarmascota.php">Registrar Mascota</a></li>
             <li><a href="donar.php">Donar</a></li>
             <li><a href="daralerta.php">Alertar</a></li>
-            <li><a href="veterinarias.php">Veterinarias</a></li>
+            <li><a href="esterilizacion.php">Veterinarias</a></li>
             <li><a href="sobrePets.php">Sobre Pets</a></li>
+            <li><a href="alertas.php">Alertas</a></li>
         </ul>
     </div>
 
