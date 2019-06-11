@@ -13,7 +13,7 @@
 <?php include('../partes/headpart.php'); ?>
 <div class="acceso">
         <h2>  INICIO DE SESION </h2>
-        <form action="procesarlogin.php" method="post" >
+        <form action="../procesos/procesarlogin.php" method="post" >
             <div class="inbox">
                 <input type="email"  name="correo" placeholder="Ingresar correo" maxlength="30"   class="tam"  required="">
             </div>
