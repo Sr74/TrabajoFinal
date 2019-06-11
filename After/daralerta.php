@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="page2.php">
 </head>
 <body>
-    <?php include("menu.php"); ?>
+    <?php include("menu.php") ?>
     <form action="procesoalerta.php" method="post">
         <div>
             <label>Ingrese nombre</label>
