@@ -1,6 +1,7 @@
 <?php
 $pdo = new PDO("mysql:host=localhost;dbname=personas;charset=utf8","root","");
 $sql = "SELECT*FROM adoptados";
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
