@@ -1,12 +1,12 @@
 body{
-    background-color: aquamarine;
+    background-color:#204862;
     background-size: auto;
 }
 .donacion{
     text-align: center;
     margin: 100px 300px;
     border: 2px solid green;
-    background-color: whitesmoke;
+    background-color: beige;
     border-radius: 20px;
     
 }

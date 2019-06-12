@@ -1,0 +1,14 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG1k66JFXz9IemTB2HWT-r56Kup7hhJqws4O-vn_jhcr2PBsXi ) ;
+}
+.general{
+    text-align: center;
+    background-color: whitesmoke;
+    width: 400px;
+    height: 700px;
+    margin: 175px 500px;
+    border:2px solid rebeccapurple;
+}
+h1{
+    color: rgb(30, 233, 91);
+}

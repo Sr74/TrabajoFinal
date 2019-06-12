@@ -10,11 +10,11 @@ $sql = "SELECT*FROM adoptados";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="page2.css">
+    <link rel="stylesheet" href="adoptar.css">
 </head>
 <body>
-
     <?php include("menu.php") ?>
+    <div class="general">
     <header>
         <h1>Adopta una Mascota </h1>
     </header>
@@ -42,5 +42,10 @@ $sql = "SELECT*FROM adoptados";
         }
         ?>
     </table>
+
+    </div>
+
+    
+    
 </body>
 </html>

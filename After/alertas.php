@@ -9,19 +9,46 @@ $sql = "SELECT*FROM alertas";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="page2.css">
+    <link rel="stylesheet" href="">
+    <style>
+        body{
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-C4H35XAAiBTorrbyE2AkbFfIj-2gsZNypq3NxqeHyv1I8bJm);
+        }
+        h1{
+            text-align:center;
+        }
+        .table  td {
+            border: 2px solid red;
+            background-color:beige; 
+            
+        }
+        h3{
+           color: green;
+        }
+        h1{
+            color: white;
+        }
+        .general{
+            background-color: greenyellow;
+            width: 600px;
+            height: auto;
+            margin: 30px 350px;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
+    <div class="general">
     <header>
         <h1>Veterinarias con las que trabajamos</h1>
     </header>
    <?php include ("menu.php") ?>
     <table class="table">
-        <tr>
-            <td>Nombre</td>
-            <td>Numero</td>
-            <td>Direccion</td>
-            <td>Descripcion</td>
+        <tr >
+            <td><h3>Nombre</h3></td>
+            <td><h3>Numero</h3></td>
+            <td><h3>Direccion</h3></td>
+            <td><h3>Descripcion</h3></td>
         </tr>
 
     
@@ -38,5 +65,8 @@ $sql = "SELECT*FROM alertas";
         }
         ?>
     </table>
+
+    </div>
+    
 </body>
 </html>

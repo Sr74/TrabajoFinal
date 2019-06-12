@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+    font-family: sans-serif;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQE57Fc2E-v-InBjKceucdzFAVTI1pJSWqgAQnbUbJZPi8nX0);
+}
+.formulario{
+    margin: 100px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+.form_register{
+    width: 95%;
+    max-width: 500px;
+    margin: auto;
+    background:beige;
+    border-radius: 10px;
+    border-left: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+
+}
+.form_register:hover{
+    background-color: azure;
+}
+.titulo{
+    background: rgb(39, 243, 107);
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 7px solid crimson;
+
+}
+.contenedor{
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+input{
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.input_48{
+    width: 48%,
+
+}
+.input_100{
+    width: 100%;
+}
+.text{
+    text-align: center;
+    padding: 20px 120px;
+}
+.bott{
+   padding: 10px 40px;
+    background: crimson;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    
+}
+.bot{
+    text-align: center;
+}
+h2{
+    
+    color: azure;
+    background: rgb(10, 211, 37);
+    padding: 5px;
+    width: 500px;
+    margin: 20px 320px;
+}
