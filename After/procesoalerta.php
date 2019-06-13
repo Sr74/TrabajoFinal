@@ -9,13 +9,14 @@ if ($telefono == ""){
 }
 $direc = $_POST["direc"];
 $descrip = $_POST["descrip"];
+$foto = $_POST["foto"];
 
 
 $conexion = mysqli_connect("localhost","root","","personas");
 if($direc == "" or $descrip == ""){
     header("Location:daralerta.php");
 }else{
-    $verificar = mysqli_query($conexion ,"INSERT INTO alertas VALUES (NULL,'$nombre','$telefono','$direc','$descrip')");
+    $verificar = mysqli_query($conexion ,"INSERT INTO alertas VALUES (NULL,'$nombre','$telefono','$direc','$descrip','$foto')");
     header("Location:alertas.php");
 
 }

@@ -18,15 +18,20 @@
         </div><br>
         <div>
             <label>Ingrese un telefono</label>
-            <input type="text" name="telefono" placeholder="No es obligatorio">
+            <input type="text" name="telefono" placeholder=" obligatorio" required>
         </div><br>
         <div>
             <label>Ingrese la direccion</label>
-            <input type="text" name="direc" placeholder="Obligatorio">
+            <input type="text" name="direc" placeholder="Obligatorio" required>
         </div><br>
         <div>
             <label>Ingrese una descripcion</label><br>
             <textarea name="descrip" cols="30" rows="10" placeholder="Obligatorio"></textarea>
+        </div><br>
+        <div>
+            <label>subir fotos:</label>
+            <input type="file" name="foto"  required>
+            
         </div><br>
         <div>
             <button class="bott">Enviar</button>

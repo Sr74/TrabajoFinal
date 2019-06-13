@@ -30,7 +30,7 @@ $sql = "SELECT*FROM alertas";
         }
         .general{
             background-color: greenyellow;
-            width: 600px;
+            width: 800px;
             height: auto;
             margin: 30px 350px;
             border-radius: 10px;
@@ -40,7 +40,7 @@ $sql = "SELECT*FROM alertas";
 <body>
     <div class="general">
     <header>
-        <h1>Veterinarias con las que trabajamos</h1>
+        <h1>Adoptame</h1>
     </header>
    <?php include ("menu.php") ?>
     <table class="table">
@@ -49,6 +49,7 @@ $sql = "SELECT*FROM alertas";
             <td><h3>Numero</h3></td>
             <td><h3>Direccion</h3></td>
             <td><h3>Descripcion</h3></td>
+            <td><h3>Foto</h3></td>
         </tr>
 
     
@@ -60,6 +61,8 @@ $sql = "SELECT*FROM alertas";
                 <td><?php echo $fila["telefono"]?></td>
                 <td><?php echo $fila["direccion"]?></td>
                 <td><textarea cols="30" rows="10" readonly ><?php echo $fila["descripcion"]?></textarea></td>
+                <td><?php echo $fila["foto"]?></td>
+
             </tr>
         <?php
         }
