@@ -11,7 +11,7 @@
     <?php include('menu.php'); ?>
     <div class="donacion">
         <h1>Bienvenido al centro de donaciones</h1>
-    <form action="procesarRegistro.php" method="post">
+    
         <div>
             <input type="hidden" name="id" >
         </div>
@@ -40,7 +40,13 @@
             <label for="">Apellidos:</label>
             <input type="text" name="apellidos" style="width:300px; height: 40px ; border: 2px solid grey; border-radius: 20px" >
         </div><br>
-        <div><button class="boton">Donar</button></div><br>
+        <div>
+            <label for="">Monto a Donar (s/.):</label>
+            <input type="text" name="number" style="width:50px; height: 40px ; border: 2px solid red; border-radius: 20px" >
+        </div><br>
+        <button><a href="recepcionDeDonacion.php">Donar</a></button>
+        
+        
         
         
 

@@ -19,7 +19,7 @@ window.history.go(-1);
 //validacion de contraseña
 if($clave!=$repeticion){
     echo'<script>
-    alert("Las contraseñas no coinciden; intente de nuevo chavalito");
+    alert("Las contraseñas no coinciden; por favor intente de nuevo");
     window.history.go(-1);
     </script>
     ';    

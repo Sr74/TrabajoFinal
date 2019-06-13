@@ -15,7 +15,7 @@
         <div class="banner-txt">
             <h2>RESCUEamigos</h2>
             <h3>Donde ser solidario es un placer</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, illum libero? Ratione sapiente veniam facilis eligendi deserunt a, consectetur molestias optio dolores beatae dolorem error accusamus, nostrum adipisci aspernatur incidunt.</p>
+            <p>Somos una organizacion intermediaria, que ayuda a los animales domesticos a conseguir un hogar, recomendar veterinarios etc</p>
             <a href="">!Unete¡</a>
         </div>
 
