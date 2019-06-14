@@ -9,54 +9,60 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
+    <div class="todo">
 
-    <div class="container">
-        <div class="card">
-            <div class="img-box">
-                <img src="https://http2.mlstatic.com/perros-cachorros-D_NP_717526-MLM27062488387_032018-Q.jpg">
-            </div>
-            <div class="content">
-                <h2>someone famous <br><span>UX/UI Designer</span></h2>
-                <p> qwertyuioasdfghjkxcvbnmr
-                tyuijmkuytrdfvbnjm</p>
-            
-                <ul>
-                    <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="card">
-            <div class="img-box">
-                <img src="https://http2.mlstatic.com/perros-cachorros-D_NP_717526-MLM27062488387_032018-Q.jpg">
-            </div>
-            <div class="content">
-                <h2>someone famous <br><span>UX/UI Designer</span></h2>
-                <p> qwertyuioasdfghjkxcvbnmr
-                tyuijmkuytrdfvbnjm</p>
-            
-                <ul>
-                    <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                </ul>
+        <div class="container">
+            <div class="card">
+                <div class="img-box">
+                    <img src="https://http2.mlstatic.com/perros-cachorros-D_NP_717526-MLM27062488387_032018-Q.jpg">
+                </div>
+                <div class="content">
+                    <h2>someone famous <br><span>UX/UI Designer</span></h2>
+                    <p> qwertyuioasdfghjkxcvbnmr
+                    tyuijmkuytrdfvbnjm</p>
+                
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <div class="card">
-            <div class="img-box">
-                <img src="https://http2.mlstatic.com/perros-cachorros-D_NP_717526-MLM27062488387_032018-Q.jpg">
+        <div class="container">
+            <div class="card">
+                <div class="img-box">
+                    <img src="https://http2.mlstatic.com/perros-cachorros-D_NP_717526-MLM27062488387_032018-Q.jpg">
+                </div>
+                <div class="content">
+                    <h2>someone famous <br><span>UX/UI Designer</span></h2>
+                    <p> qwertyuioasdfghjkxcvbnmr
+                    tyuijmkuytrdfvbnjm</p>
+                
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="content">
-                <h2>someone famous <br><span>UX/UI Designer</span></h2>
-                <p> qwertyuioasdfghjkxcvbnmr
-                tyuijmkuytrdfvbnjm</p>
-            
-                <ul>
-                    <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                </ul>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="img-box">
+                    <img src="https://http2.mlstatic.com/perros-cachorros-D_NP_717526-MLM27062488387_032018-Q.jpg">
+                </div>
+                <div class="content">
+                    <h2>someone famous <br><span>UX/UI Designer</span></h2>
+                    <p> qwertyuioasdfghjkxcvbnmr
+                    tyuijmkuytrdfvbnjm</p>
+                
+                    <ul>
+                        <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
