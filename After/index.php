@@ -1,6 +1,7 @@
 <?php
 session_start();
-
+$pdo = new PDO("mysql:host=localhost;dbname=personas;charset=utf8","root","");
+$sql = "SELECT*FROM datos"; //con esat parte trabaja
 ?>
 
 <!DOCTYPE html>
@@ -13,7 +14,9 @@ session_start();
     <title>RescuePets</title>
 </head>
 <body>
+    
     <?php
+    //aqui jala la foto pero no se como obtener la indicada
     foreach($pdo->query($sql) as $fila){
     ?> 
     <div>
@@ -38,7 +41,7 @@ session_start();
     </div>
 
     <hr id="line">
-
+  
     <div class="navigation">
         <input type="checkbox">
         <span></span>
