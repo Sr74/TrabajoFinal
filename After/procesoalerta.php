@@ -24,11 +24,14 @@ if($cd!=""){
 }
 
 
-if($direc == "" or $descrip == ""){
-   header("Location:daralerta.php");
-}else{
- $verificar = mysqli_query($conexion ,"INSERT INTO alertas VALUES (NULL,'$nombre','$telefono','$direc','$descrip','$nombreArchivo')");
-header("Location:alertas.php")
-;}
+if($direc != "" or $descrip != ""){
+    $verificar = mysqli_query($conexion ,"INSERT INTO alertas VALUES (NULL,'$nombre','$telefono','$direc','$descrip','$nombreArchivo')");
+    header("Location:alertas.php");
+}
+  
+else{
 
+    header("Location:daralerta.php");
+
+}
 ?>
