@@ -18,13 +18,12 @@ $razones =$_POST["razones"];
 //insercion
 $insertar = "INSERT INTO solicitud(nombres,apellidos,dni,distrito,direccion,correo,tipo_mascota,raza,edad,razones) VALUE ('$nombres','$apellidos','$dni','$distrito','$direccion','$correo','$tipo','$raza','$edad','$razones')";
 //mensaje
-echo'<script class="mensaje">
-    alert("Felicidades se ha enviado su solicitud exitosamente; en breve aprovaremos su solicitud, y enviaremos un correo con todo lo necesario para el proceso: Saludos coordiales");
-    window.history.go(-1);
-    
+echo'<script >
+    alert("Felicidades se ha enviado su solicitud exitosamente; en breve aprobaremos su solicitud, y enviaremos un correo con todo lo necesario para el proceso. Saludos coordiales que tenga un buen día");
+    window.location="http://localhost/TrabajoFinal/After/sobrePets.php";
     </script>
     ';
-
+    
 
 //ejecucion
 $resultado = mysqli_query($conexion, $insertar);

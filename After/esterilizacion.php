@@ -23,11 +23,53 @@
         
                 <input type="text" name="dni" class="input_48" placeholder="DNI" required >
         
-                <select name="distrito" id="" style="width:200px; height: 50px; border-radius: 5px;">
-                    <option value="Molina">Molina</option>
-                    <option value="Surco">Surco</option>
-                    <option value="Santa Anita">Santa Anita</option>
-                 </select>
+                <select name="distrito" id="" style="width: 200px ; height: 50px; border: 1px solid grey; border-radius: 5px;" required>
+                        <option value="">Seleccione su Distrito</option>
+                        <option value="ANCON">ANCON</option>
+                        <option value="ATE">ATE</option>
+                        <option value="BARRANCO">BARRANCO</option>
+                        <option value="BREÑA">BREÑA</option>
+                        <option value="CARABAYLLO">CARABAYLLO</option>
+                        <option value="CHACLACAYO">CHACLACAYO</option>
+                        <option value="CHACLACAYO">CHORRILLOS</option>
+                        <option value="CIENEGUILLA">CIENEGUILLA</option>
+                        <option value="COMAS">COMAS</option>
+                        <option value="AGUSTINO">EL AGUSTINO</option>
+                        <option value="INDEPENDENCIA">INDEPENDENCIA</option>
+                        <option value="JESUS MARIA">JESUS MARIA</option>
+                        <option value="MOLINA">LA MOLINA</option>
+                        <option value="LA VICTORIA">LA VICTORIA</option>
+                        <option value="LIMA">LIMA</option>
+                        <option value="LINCE">LINCE</option>
+                        <option value="LOS OLIVOS">LOS OLIVOS</option>
+                        <option value="LURIGANCHO">LURIGANCHO</option>
+                        <option value="LURIN">LURIN</option>
+                        <option value="MAGDALENA">MAGDALENA DEL MAR</option>
+                        <option value="MIRAFLORES">MIRAFLORES</option>
+                        <option value="PACHACAMAC">PACHACAMAC</option>
+                        <option value="PUCUSANA">PUCUSANA</option>
+                        <option value="PUEBLO LIBRE">PUEBLO LIBRE</option>
+                        <option value="PUENTE PIEDRA">PUENTE PIEDRA</option>
+                        <option value="PUNTA HERMOSA">PUNTA HERMOSA</option>
+                        <option value="PUNTA NEGRA">PUNTA NEGRA</option>
+                        <option value="RIMAC">RIMAC</option>
+                        <option value="SAN BARTOLO">SAN BARTOLO</option>
+                        <option value="SAN BORJA">SAN BORJA</option>
+                        <option value="SAN ISIDRO">SAN ISIDRO</option>
+                        <option value="SAN JUAN DE LURIGANCHO">SAN JUAN DE LURIGANCHO</option>
+                        <option value="SAN JUAN DE MIRAFLORES">SAN JUAN DE MIRAFLORES</option>
+                        <option value="SAN LUIS">SAN LUIS</option>
+                        <option value="SAN MARTIN DE  PORRES">SAN MARTIN DE PORRES</option>
+                        <option value="SAN MIGUEL">SAN MIGUEL</option>
+                        <option value="SANTA ANITA">SANTA ANITA</option>
+                        <option value="SANTA MARIA DEL MAR">SANTA MARIA DEL MAR</option>
+                        <option value="SANTA ROSA">SANTA ROSA</option>
+                        <option value="SANTIAGO DE SURCO">SANTIAGO DE SURCO</option>
+                        <option value="SURQUILLO">SURQUILLO</option>
+                        <option value="VILLA EL SALVADOR">VILLA EL SALVADOR</option>
+                        <option value="VILLA MARIA DEL TRIUNFO">VILLA MARIA DEL TRIUNFO</option>
+                    
+                </select>
     
                 <input type="text" name="direccion" class="input_100" placeholder="Direccion: calle/numero/piso" required>
 
