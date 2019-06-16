@@ -28,22 +28,21 @@ if($clave!=$repeticion){
 //encriptado de contraseña
 $clave = md5($clave);
 
-//insercion
-$insertar = "INSERT INTO datos(nombres,apellidos,dni,distrito,correo,claveUsuario) VALUE ('$nombres','$apellidos','$dni','$distrito','$correo','$clave')";
+
 
 //verificar si el usuario ya existe en el base de datos;
 $verificar = mysqli_query($conexion ,"SELECT*FROM datos WHERE correo ='$correo' and dni ='$dni'");
 if(mysqli_num_rows($verificar) > 0){
     echo '<script>
-    alert("El usuario ya esta registrado, regrese para Loguearse");
-    window.history.go(-1);
+    alert("El usuario ya esta registrado, por lo le pedimos iniciar session");
+    window.location="http://localhost/TrabajoFinal/Before/ventanas/login.php";
     </script>
     '
     ;
- 
+ //insercion
 }else{
-    echo 'se ha registrado correctamente, por favor inicie sesión';
-header("Location:../ventanas/login.php");
+    $insertar = "INSERT INTO datos(nombres,apellidos,dni,distrito,correo,claveUsuario) VALUE ('$nombres','$apellidos','$dni','$distrito','$correo','$clave')";
+    header("Location:../ventanas/login.php");
 }
 
 //ejecucion

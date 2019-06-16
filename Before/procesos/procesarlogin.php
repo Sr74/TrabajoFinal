@@ -22,6 +22,12 @@ if(mysqli_num_rows($verificar) > 0){
     header("Location:../../After/index.php");
 }
 else{
-    header("Location:../ventanas/login.php");
+    echo '<script>
+    alert("Su contraseña o usuario no coinciden ,por favor  vuelve a intentarlo");
+    window.location="http://localhost/TrabajoFinal/Before/ventanas/login.php";
+    </script>
+    '
+    ;
+
 }
 ?>
