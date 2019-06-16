@@ -10,7 +10,7 @@
 <body>
     <?php include("menu.php" )?>
     <div class="alerta">
-    <form action="procesoalerta.php" method="post">
+    <form action="procesoalerta.php" method="post" enctype="multipart/form-data">
         <h1>Publicar alerta</h1><br>
         <div>
             <label>Ingrese nombre</label>
@@ -30,7 +30,7 @@
         </div><br>
         <div>
             <label>subir fotos:</label>
-            <input type="file" name="foto"  required>
+            <input type="file" name="foto"  >
             
         </div><br>
         <div>
