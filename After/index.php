@@ -13,12 +13,11 @@ session_start();
     <title>RescuePets</title>
 </head>
 <body>
-
+    <?php if(isset($_SESSION['id_user'])) { ?>
+        <h2 class="loco"> Bienvenido RescueAmigo, <?php echo $_SESSION['id_user'] ?></h2>
+    <?php } ?>
     <div>
         <h1 id="desc1">RescuePets: Rescatando Mascotas</h1>
-        <?php if(isset($_SESSION["id_user"])) { ?>
-            <h2 class="loco">Bienvenido RescueAmigo(a), <?php echo $_SESSION["id_user"] ?></h2>
-        <?php } ?>
     </div>
 
     <div class="imgs">

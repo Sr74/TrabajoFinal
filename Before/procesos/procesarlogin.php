@@ -19,9 +19,9 @@ $num=mysqli_num_rows($verificar);
 
 
 if($num > 0){
+    $row = mysqli_fetch_array($verificar);
     session_start();
-    $row = mysqli_fetch_array($res);
-    $_SESSION["id_user"]=$row["apellidos"];
+    $_SESSION['id_user']=$row['apellidos'];
     header("Location:../../After/index.php");
 }
 else{

@@ -156,5 +156,7 @@ body{
 
 .loco{
     position: absolute;
-    margin:0 auto;
+    top: 150px;
+    right: 300px;
+    color:red;
 }
