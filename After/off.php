@@ -1,6 +1,5 @@
 <?php
 session_start();
 session_destroy();
-
-header("Location:../ventanas/portal.php");
+header("Location:../Before/ventanas/portal.php");
 ?>
