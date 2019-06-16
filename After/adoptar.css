@@ -4,11 +4,24 @@ body{
 .general{
     text-align: center;
     background-color: whitesmoke;
-    width: 400px;
+    width: 800px;
     height: 700px;
-    margin: 175px 500px;
+    margin: 0 auto;
     border:2px solid rebeccapurple;
 }
 h1{
     color: rgb(30, 233, 91);
+}
+.boton_adoptar {
+    background-color: red;
+    border-radius: 10px;
+}
+.boton_adoptar a{
+    color:white;
+    text-transform: uppercase;
+
+}
+
+.boton_adoptar:hover{
+    background-color: blue;
 }
