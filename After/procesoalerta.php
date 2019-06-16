@@ -13,18 +13,21 @@ if ($telefono == ""){
 $direc= $_POST["direc"];
 $descrip = $_POST["descrip"];
 
+$foto=(isset($_FILES['foto']["name"]))?$_FILES['foto']["name"]:"";
+$Fecha= new DateTime();
+$nombreArchivo=($foto!="")?$Fecha->getTimestamp()."_".$_FILES["foto"]["name"]:"pet.jpg";
 
-$foto = $_FILES['foto']['name'];
-$nombrer = strtolower($foto);
-$cd=$_FILES['foto']['tmp_name'];
-$ruta = "TrabajoFinal/images/" . $_FILES['foto']['name'];
-$destino = "TrabajoFinal/images/".$nombrer;
-$resultado = @move_uploaded_file($_FILES["foto"]["tmp_name"], $ruta);
+$cd=$_FILES["foto"]["tmp_name"];
+
+if($cd!=""){
+    move_uploaded_file($cd,"../Images/".$nombreArchivo);
+}
+
 
 if($direc == "" or $descrip == ""){
    header("Location:daralerta.php");
 }else{
- $verificar = mysqli_query($conexion ,"INSERT INTO alertas VALUES (NULL,'$nombre','$telefono','$direc','$descrip','$foto')");
+ $verificar = mysqli_query($conexion ,"INSERT INTO alertas VALUES (NULL,'$nombre','$telefono','$direc','$descrip','$nombreArchivo')");
 header("Location:alertas.php")
 ;}
 

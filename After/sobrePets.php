@@ -89,16 +89,20 @@
         <div class="preguntas-list">
             <h3>Preguntas Frecuentes sobre Ellos</h3>
             <ul>
-                <li><a href=""></a></li>
-                <li>fesse</li>
-                <li>fsefes</li>
-                <li>fsefes</li>
-                <li>fsef</li>
-                <li>fsef</li>
-                <li>defsffsefs</li>
-                <li>fesfesfse</li>
-                <li>fsefesf</li>
-                <li>sfefsefesf</li>
+                <h4 class="gatos">GATOS</h4>
+                <li><a href="">Los Gatos pueden Volar</a></li>
+                <li><a href="">¿Que si mi gato no quiere comer?</a></li>
+                <li><a href="">¿Como debo alimentar a mi gato?</a></li>
+                <li><a href="">Es bueno criar muchos gatos</a></li>
+                
+            </ul>
+
+            <ul>
+                <h4 class="perros">PERROS</h4>
+                <li><a href="">¿Cuanto años vive un perro?</a></li>
+                <li><a href="">¿Que si mi Perro no quiere comer?</a></li>
+                <li><a href="">¿Como debo alimentar a mi Perro?</a></li>
+                <li><a href="">¿Debo castigar a mi Mascota?</a></li>
             </ul>
         </div>
     </div>

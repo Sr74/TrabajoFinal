@@ -30,7 +30,7 @@
         </div><br>
         <div>
             <label>subir fotos:</label>
-            <input type="file" name="foto"  >
+            <input type="file" name="foto" id="foto"  accept="image/*" >
             
         </div><br>
         <div>

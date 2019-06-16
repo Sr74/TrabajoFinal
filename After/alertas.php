@@ -1,6 +1,11 @@
 <?php
-$pdo = new PDO("mysql:host=localhost;dbname=personas;charset=utf8","root","");
-$sql = "SELECT*FROM alertas";
+try{
+    $pdo = new PDO("mysql:host=localhost;dbname=personas;charset=utf8","root","");
+    $sql = "SELECT*FROM alertas"; 
+}
+catch(PDOException $e){
+    echo "Conexión No Entablada".$e->getMessage();
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -61,7 +66,7 @@ $sql = "SELECT*FROM alertas";
                 <td><?php echo $fila["telefono"]?></td>
                 <td><?php echo $fila["direccion"]?></td>
                 <td><textarea cols="30" rows="10" readonly ><?php echo $fila["descripcion"]?></textarea></td>
-                <td><?php echo $fila["foto"]?></td>
+                <td><img class="img_tub" width="200px" height="250px" src="../Images/<?php echo $fila["foto"]; ?>"></td>
 
             </tr>
         <?php
