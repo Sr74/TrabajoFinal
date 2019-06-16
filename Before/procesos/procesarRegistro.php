@@ -44,6 +44,15 @@ if(mysqli_num_rows($verificar) > 0){
     $insertar = "INSERT INTO datos(nombres,apellidos,dni,distrito,correo,claveUsuario) VALUE ('$nombres','$apellidos','$dni','$distrito','$correo','$clave')";
     header("Location:../ventanas/login.php");
 }
+$foto=(isset($_FILES['foto']["name"]))?$_FILES['foto']["name"]:"";
+$Fecha= new DateTime();
+$nombreArchivo=($foto!="")?$Fecha->getTimestamp()."_".$_FILES["foto"]["name"]:"usuario.png";
+
+$cd=$_FILES["foto"]["tmp_name"];
+
+if($cd!=""){
+    move_uploaded_file($cd,"../Images/".$nombreArchivo);
+}
 
 //ejecucion
 $resultado = mysqli_query($conexion, $insertar);

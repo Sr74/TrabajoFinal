@@ -13,6 +13,16 @@ session_start();
     <title>RescuePets</title>
 </head>
 <body>
+    <?php
+    foreach($pdo->query($sql) as $fila){
+    ?> 
+    <div>
+        <img class="img_tub" width="200px" height="250px" src="../Images/<?php echo $fila["foto"]; ?>">
+    </div>
+    <?php
+    }
+    ?>
+
     <?php if(isset($_SESSION['id_user'])) { ?>
         <h2 class="loco"> Bienvenido RescueAmigo, <?php echo $_SESSION['id_user'] ?></h2>
     <?php } ?>

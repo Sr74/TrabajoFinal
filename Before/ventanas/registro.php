@@ -76,7 +76,12 @@
                 <input type="password" name="clave" class="input_48" placeholder="Contraseña"  >
             
                 <input type="password" name="repeticion" class="input_48" placeholder="Repita su contraseña" >
-                
+                <div>
+                    <label>Sube una foto:</label>
+                    <input type="file" name="foto" id="foto"  accept="image/*" >
+                    
+                    </div>
+                        
                 <div class="bot"><button class="bott">REGISTRARSE</button></div>
             </form>
                 <div class="text">
