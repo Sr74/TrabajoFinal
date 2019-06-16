@@ -23,6 +23,7 @@
             <li><a href="esterilizacion.php">Esterilizar</a></li>
             <li><a href="sobrePets.php">Sobre Pets</a></li>
             <li><a href="alertas.php">Alertas</a></li>
+            <li><a href="off.php">Cerrar Sesión</a></li>
         </ul>
     </div>
 

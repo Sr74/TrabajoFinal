@@ -81,7 +81,7 @@
             </form>
                 <div class="text">
                         <div><h3>¿Ya estas registrado?</h3></div>
-                        <div class="entrada"><a href="../ventanas/login.php">Haz clic aqui</a></div><br>
+                        <div class="entrada"><a href="../ventanas/login.php">Haz clic aqui</a></div>
 
                 </div>
             

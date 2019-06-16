@@ -15,10 +15,13 @@ window.history.go(-1);
 
 //validacion
 $verificar = mysqli_query($conexion ,"SELECT*FROM datos WHERE correo ='$correo' and claveUsuario='$claveUsuariomod'");
+$num=mysqli_num_rows($verificar);
 
 
-if(mysqli_num_rows($verificar) > 0){
-
+if($num > 0){
+    session_start();
+    $row = mysqli_fetch_array($res);
+    $_SESSION["id_user"]=$row["apellidos"];
     header("Location:../../After/index.php");
 }
 else{

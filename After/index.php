@@ -1,3 +1,8 @@
+<?php
+session_start();
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,6 +16,9 @@
 
     <div>
         <h1 id="desc1">RescuePets: Rescatando Mascotas</h1>
+        <?php if(isset($_SESSION["id_user"])) { ?>
+            <h2 class="loco">Bienvenido RescueAmigo(a), <?php echo $_SESSION["id_user"] ?></h2>
+        <?php } ?>
     </div>
 
     <div class="imgs">
@@ -30,7 +38,7 @@
             <li><a href="adoptar.php">Adoptar</a></li>
             <li><a href="registrarmascota.php">Registrar Mascota</a></li>
             <li><a href="sobrePets.php">Sobre Pets</a></li>
-            <li><a href="donar.php">Donar</a></li>
+            <li><a href="off.php">Cerrar Sesión</a></li>
         </ul>
     </div>
 

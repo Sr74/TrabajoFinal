@@ -37,7 +37,7 @@ body{
 }
 
 .navigation input:checked~ .menu{
-    width: 400px;
+    width: 500px;
 }
 
 .menu li{
@@ -152,4 +152,9 @@ body{
     position: absolute;
     top:640px;
     font-size: 10px;
+}
+
+.loco{
+    position: absolute;
+    margin:0 auto;
 }

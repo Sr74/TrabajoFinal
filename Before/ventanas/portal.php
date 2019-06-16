@@ -49,7 +49,8 @@
                 </div>
 
                 <div id="desc-page">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi consectetur illo consequatur vel praesentium iste dolorum dignissimos officia, ratione provident odio molestiae accusamus enim harum quod corporis? Architecto, sunt quia.</p>
+                    <p>Bienvenido a RESCUEPETS, una organización sin fines de lucro que brinda información relevante sobre mascotas y facilita procesos de adopción, esterilización y alertas sobre animales sin hogar.
+                    Si estas interesado en pertenecer a esta comunidad,no dudes en registrarte</p>
                 </div>
             
         </section>
