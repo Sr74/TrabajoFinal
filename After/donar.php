@@ -47,7 +47,7 @@
             <input type="text" name="number" style="width:50px; height: 40px ; border: 2px solid red; border-radius: 20px" required>
         </div><br>
         <div>
-            <button>validar datos</button>
+            
             <button><a href="recepcionDeDonacion.php">Donar</a></button>
         </div>
             

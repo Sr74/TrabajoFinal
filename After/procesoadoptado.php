@@ -5,9 +5,9 @@ $nombre = $_POST["nombre"];
 $dni = $_POST["dni"];
 if (isset($_POST['condiciones']) && $_POST['condiciones'] == '1'){
       
-   
     $conexion = mysqli_connect("localhost","root","","personas");
     $verificar = mysqli_query($conexion ,"SELECT*FROM datos WHERE apellidos ='$nombre' and dni='$dni'"); 
+    
 
 
     if(mysqli_num_rows($verificar) > 0){
