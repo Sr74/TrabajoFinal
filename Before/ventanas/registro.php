@@ -79,7 +79,7 @@
                 
                 <div>
                     <label>Sube una foto:</label>
-                    <input type="file" name="foto" id="foto"  accept="image/*" >
+                    <input type="file" name="foto2" id="foto2"  accept="image/*" >
                     
                 </div>
                         

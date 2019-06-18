@@ -21,7 +21,7 @@ $sql = "SELECT foto FROM datos WHERE id='$id'"; //con esat parte trabaja
     foreach($pdo->query($sql) as $fila){
     ?> 
     <div>
-        <img class="imguser" width="100px" height="100px" src="../ImagesUser/<?php echo $fila["foto"] ?>">
+        <img class="imguser" width="100px" height="100px" src="../Image/<?php echo $fila["foto"] ?>">
     </div>
     <?php
     }
