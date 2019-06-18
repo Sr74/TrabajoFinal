@@ -16,10 +16,16 @@ if (isset($_POST['condiciones']) && $_POST['condiciones'] == '1'){
         $sql2 =  mysqli_query($conexion ,"DELETE FROM adoptados WHERE id='$iid'");
         header("Location:Agradece.php");
     }else{
-        header("Location:adoptando.php");
+        echo'<script>
+        alert("Los datos ingresados no estan registrados");
+        window.history.go(-1);
+        </script>';
     }
 }else{
-    header("Location:adoptando.php");
+    echo'<script>
+        alert("Acepte los terminos y condiciones");
+        window.history.go(-1);
+        </script>';
 }
 
 ?>
