@@ -18,7 +18,7 @@
         </div><br>
         <div>
             <label>Ingrese un telefono</label>
-            <input type="text" name="telefono" placeholder=" obligatorio" required>
+            <input type="text" name="telefono" placeholder="No es obligatorio">
         </div><br>
         <div>
             <label>Ingrese la direccion</label>

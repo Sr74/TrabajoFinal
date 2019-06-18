@@ -1,8 +1,9 @@
 <?php
-
+//Recepcion de datos
 $iid = $_POST["idd"];
 $nombre = $_POST["nombre"];
 $dni = $_POST["dni"];
+//Procesamiento de datos
 if (isset($_POST['condiciones']) && $_POST['condiciones'] == '1'){
       
     $conexion = mysqli_connect("localhost","root","","personas");
@@ -11,7 +12,7 @@ if (isset($_POST['condiciones']) && $_POST['condiciones'] == '1'){
 
 
     if(mysqli_num_rows($verificar) > 0){
-        //poner una alerta mensaje
+    
         $sql2 =  mysqli_query($conexion ,"DELETE FROM adoptados WHERE id='$iid'");
         header("Location:Agradece.php");
     }else{

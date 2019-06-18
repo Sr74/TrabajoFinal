@@ -7,7 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="page2.css">
 </head>
-<STYLE>A {text-decoration: none;} </STYLE>
+
 
 <body>
 
