@@ -53,8 +53,7 @@
 * Reportar MASCOTA
 * Esterilización de MASCOTA
 * Ver Lista de MASCOTAS DISPONIBLES
-    * Adoptar MASCOTA
+    * Registrar y adoptar MASCOTA
 * Preguntas y Respuestas sobre la MASCOTA
-* Calificar USUARIOS
 * Donaciones a la causa
 * Cerrar Sesión
