@@ -9,6 +9,7 @@ $distrito = $_POST["distrito"];
 $correo = $_POST["correo"];
 $clave = $_POST["clave"];
 $repeticion =$_POST["repeticion"];
+$foto=(isset($_FILES['foto']["name"]))?$_FILES['foto']["name"]:"";
 
 //validacion de llenado de datos
 $req =(strlen($nombres)*strlen($apellidos)*strlen($dni)*strlen($distrito)*strlen($correo)*strlen($clave)) or die ('<script>
@@ -40,22 +41,25 @@ if(mysqli_num_rows($verificar) > 0){
     '
     ;
  //insercion
-}else{
-    $insertar = "INSERT INTO datos(nombres,apellidos,dni,distrito,correo,claveUsuario) VALUE ('$nombres','$apellidos','$dni','$distrito','$correo','$clave')";
+}
+else{
+    
+    //Cargar imagen
+    $Fecha= new DateTime();
+    $nombreArchivo=($foto!="")?$Fecha->getTimestamp()."_".$_FILES["foto"]["name"]:"usuario.png";
+
+    $cd=$_FILES["foto"]["tmp_name"];
+
+    if($cd!=""){
+        move_uploaded_file($cd,"../ImagesUser/".$nombreArchivo);
+    }
+
+
+    $insertar = "INSERT INTO datos(nombres,apellidos,dni,distrito,correo,claveUsuario,foto) VALUE ('$nombres','$apellidos','$dni','$distrito','$correo','$clave','$nombreArchivo')";
     header("Location:../ventanas/login.php");
 }
-$foto=(isset($_FILES['foto']["name"]))?$_FILES['foto']["name"]:"";
-$Fecha= new DateTime();
-$nombreArchivo=($foto!="")?$Fecha->getTimestamp()."_".$_FILES["foto"]["name"]:"usuario.png";
 
-$cd=$_FILES["foto"]["tmp_name"];
-
-if($cd!=""){
-    move_uploaded_file($cd,"../Images/".$nombreArchivo);
-}
 
 //ejecucion
 $resultado = mysqli_query($conexion, $insertar);
-
-
 ?>

@@ -1,7 +1,8 @@
 <?php
 session_start();
+$id=$_SESSION['id_plus'];
 $pdo = new PDO("mysql:host=localhost;dbname=personas;charset=utf8","root","");
-$sql = "SELECT*FROM datos"; //con esat parte trabaja
+$sql = "SELECT foto FROM datos WHERE id='$id'"; //con esat parte trabaja
 ?>
 
 <!DOCTYPE html>
@@ -20,7 +21,7 @@ $sql = "SELECT*FROM datos"; //con esat parte trabaja
     foreach($pdo->query($sql) as $fila){
     ?> 
     <div>
-        <img class="img_tub" width="200px" height="250px" src="../Images/<?php echo $fila["foto"]; ?>">
+        <img class="imguser" width="100px" height="100px" src="../ImagesUser/<?php echo $fila["foto"] ?>">
     </div>
     <?php
     }
@@ -28,6 +29,7 @@ $sql = "SELECT*FROM datos"; //con esat parte trabaja
 
     <?php if(isset($_SESSION['id_user'])) { ?>
         <h2 class="loco"> Bienvenido RescueAmigo, <?php echo $_SESSION['id_user'] ?></h2>
+
     <?php } ?>
     <div>
         <h1 id="desc1">RescuePets: Rescatando Mascotas</h1>

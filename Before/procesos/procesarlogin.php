@@ -22,6 +22,7 @@ if($num > 0){
     $row = mysqli_fetch_array($verificar);
     session_start();
     $_SESSION['id_user']=$row['apellidos'];
+    $_SESSION['id_plus']=$row['id'];
     header("Location:../../After/index.php");
 }
 else{

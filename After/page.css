@@ -156,7 +156,15 @@ body{
 
 .loco{
     position: absolute;
-    top: 150px;
-    right: 300px;
+    top: 110px;
+    right: 150px;
     color:red;
+}
+
+.imguser{
+    position: absolute;
+    top: 170px;
+    right: 260px;
+    border-radius: 100px;
+    border:none;
 }

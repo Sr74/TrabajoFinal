@@ -14,7 +14,7 @@
     <div class="form_register">
         <h2 class="titulo">CREAR UNA CUENTA</h2>
         <div class="contenedor">
-            <form action="../procesos/procesarRegistro.php" method="post">
+            <form action="../procesos/procesarRegistro.php" method="post" enctype="multipart/form-data">
                 <input type="hidden" name="id" >
                 
                 <input type="text" name="nombres" class="input_100" placeholder="Nombres" >
@@ -76,11 +76,12 @@
                 <input type="password" name="clave" class="input_48" placeholder="Contraseña"  >
             
                 <input type="password" name="repeticion" class="input_48" placeholder="Repita su contraseña" >
+                
                 <div>
                     <label>Sube una foto:</label>
                     <input type="file" name="foto" id="foto"  accept="image/*" >
                     
-                    </div>
+                </div>
                         
                 <div class="bot"><button class="bott">REGISTRARSE</button></div>
             </form>
